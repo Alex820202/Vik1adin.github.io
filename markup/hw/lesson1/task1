@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>task1</title>
+</head>
+<body>
+    <p>  Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit. Nullam nunc tortor</strong>, fermentum at massa quis, fermentum ornare arcu. Pellentesque turpis lectus, cursus ut nisl sed, aliquam ullamcorper elit. <em> Mauris tempus eros ante, ac vestibulum odio tincidunt vel</em>. Nam imperdiet nunc vel leo tristique, <u> vel laoreet orci facilisis. Vestibulum ac eleifend erat</u>. Etiam consequat pharetra purus at placerat. Nam ut lacus mauris. Sed at pharetra massa, ac <s> ultrices nisl. Mauris et aliquam risus, et varius ante</s>. Vestibulum non imperdiet augue. Curabitur hendrerit metus at tortor faucibus, sit amet volutpat eros dapibus.  </p>
+    <p align="right">
+        Etiam imperdiet neque in massa hendrerit elementum. Nulla tincidunt leo et lacinia aliquam. Donec semper eros odio, at suscipit lorem ultricies at. Vivamus aliquam eros velit, vitae scelerisque nunc gravida a. Aenean iaculis dictum nisl sed euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut tristique hendrerit est porta dignissim. Fusce justo massa, finibus ut dictum quis, feugiat vel nulla. Etiam tristique ante sed sapien mattis congue. Donec venenatis pulvinar velit, in viverra arcu pulvinar sit amet. Praesent mattis fermentum commodo. Nulla a viverra elit, non posuere erat. Suspendisse non neque nunc. Cras accumsan, quam sit amet porttitor bibendum, augue justo condimentum velit, et pharetra lectus purus nec lacus.
+    </p>
+    <p align="center"> 
+     Cras et nulla et ante vehicula aliquam consequat ut velit. Curabitur odio quam, venenatis non cursus vitae, vestibulum ac justo. Maecenas feugiat est quis nunc malesuada imperdiet. Integer vitae euismod mi. Pellentesque et mi vel eros feugiat porta non non nisi. Sed ante quam, rutrum a sapien a, interdum lobortis eros. Ut nisl sem, suscipit at ipsum eget, dapibus viverra leo. Duis at urna in urna ornare aliquet vel at est.   
+    </p> 
+    <p align="justify">
+       Aenean feugiat massa ut viverra viverra. Ut dui leo, dapibus blandit feugiat eget, mattis sed turpis. Suspendisse et cursus mauris, vel euismod mauris. Quisque et gravida risus. Curabitur efficitur augue non metus tincidunt, sed aliquet neque ornare. Nam tincidunt metus et mi semper condimentum. Aliquam in magna vitae sapien mattis tempus consequat ac tortor. Etiam non dolor quis ex semper dapibus. Vestibulum diam diam, tempor ut ultricies aliquam, vehicula ut sem. In ultrices a diam ullamcorper imperdiet.
+    </p>
+ </body>
+    </html>
