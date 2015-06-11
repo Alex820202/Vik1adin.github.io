@@ -9,8 +9,7 @@ h1
     text-align: left;
     color: orange;
 }
-
-warehouse h2 
+#warehouse h2 
 {
     text-align: left;
     color: blue;
@@ -30,22 +29,28 @@ em
 }
 
 #allotment .fruits-list {color: grey;}
+
 #warehouse .fruits-list {color: green;}
 
 .vegetables-list {color: red;}
 
 ul li {font-weight: bold;}
 
-thead {font-weight: bold;}
+thead
+{
+  font-weight: bold;
+  text-align: center;
+}
 
 tbody tr td:first-child
 {
-    color: orange;
-    background-color: white
+  color: orange;
+  background-color: white;
+  text-align: left;
 }
-
 tbody tr td
 {
-    color: white;
-    background-color: green; 
+  color: white;
+  background-color: green;
+  text-align: center;
 }
