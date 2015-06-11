@@ -1,0 +1,8 @@
+article header+p
+{
+  font-size: larger;
+ }
+article p:last-child
+{
+  color: \#999;
+ }
