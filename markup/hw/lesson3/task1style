@@ -48,7 +48,7 @@ tbody tr td:first-child
   background-color: white;
   text-align: left;
 }
-tbody tr td
+tbody tr td:first-child ~ td
 {
   color: white;
   background-color: green;
