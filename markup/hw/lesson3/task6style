@@ -48,9 +48,9 @@ border-radius: 12px;
 padding:1px 10px;
 }
 
-#red:checked ~label[for=red]{color: #ff9999;}
-#green:checked ~label[for=green]{color: #99cc99;}
-#blue:checked ~label[for=blue]{color: #b2b2ff;}
+#red:checked ~label[for=red]{color: #ffcccc;}
+#green:checked ~label[for=green]{color: #b2d8b2;}
+#blue:checked ~label[for=blue]{color: #ccccff;}
  
 #red:checked ~.red {display:none;}
 #green:checked ~.green {display:none;}
