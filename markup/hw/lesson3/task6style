@@ -1,0 +1,57 @@
+input[type="checkbox"] {display:none;}
+
+label[for=red]
+{
+color:red;
+text-decoration: underline;
+padding:10px;  
+}
+
+label[for=green]
+{
+color: green;
+text-decoration: underline;
+padding:10px;
+}
+
+label[for=blue]
+{
+color: blue;
+text-decoration: underline;
+padding:10px;
+}
+
+span.red
+{
+background:red;
+color:white;
+border: 1px transparent;
+border-radius: 12px;
+padding:1px 10px;
+}
+
+span.green
+{
+background:green;
+color:white;
+border:1px transparent;
+border-radius: 12px;
+padding:1px 10px;
+}
+
+span.blue
+{
+background:blue;
+color:white;
+border: 1px transparent;
+border-radius: 12px;
+padding:1px 10px;
+}
+
+#red:checked ~label[for=red]{color: #ff9999;}
+#green:checked ~label[for=green]{color: #99cc99;}
+#blue:checked ~label[for=blue]{color: #b2b2ff;}
+ 
+#red:checked ~.red {display:none;}
+#green:checked ~.green {display:none;}
+#blue:checked ~.blue {display:none;}
