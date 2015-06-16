@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>task3</title>
+</head>
+<body>
+    <div>
+        <ul>
+            <li class="nav"><a href="#">&#171 First</a></span>     
+            <li class="nav"><a href="#">&#171 Prev</a></span>
+            <li><a href="#">1</a></span>
+            <li><a href="#">2</a></span>
+            <li class="navm"><a href="#">...</a></span>
+            <li><a href="#">5</a></span>
+            <li><a href="#">6</a></span>
+            <li><a href="#">7</a></span>
+            <li><a href="#">8</a></span>
+            <li><a href="#">9</a></span>
+            <li class="nav"><a href="#">next &#187</a></span>
+            <li class="nav"><a href="#">last &#187</a></span>
+        </ul>
+    </div>
+</body>
+</html>
