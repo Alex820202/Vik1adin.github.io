@@ -1,0 +1,33 @@
+div {
+  margin: auto;
+  background: #a5f;
+  line-height: 30px;
+}
+
+ul {
+  font: 15px Impact, sans-serif;
+}
+
+li {
+  display: inline-block;
+}
+
+li:first-child {
+  margin-left: 40px;
+}
+
+a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-alighn: center;
+  padding: 10px;
+  heighn: inherit;
+}
+
+a:hover {
+  background-color: #fff;
+  color: #777;
+  box-shadow: 0 0 1px 1px;
+}
