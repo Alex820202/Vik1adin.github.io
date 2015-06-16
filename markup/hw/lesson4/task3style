@@ -39,11 +39,7 @@ a {
   border-color: transparent;
 }
 
-.mid {
-  border-style: hidden;
-}
-
-a:hover {
+.page a:hover {
   color: white;
   background-color: #a5f;
   border: 1px solid #91d;
