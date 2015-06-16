@@ -1,0 +1,50 @@
+div {
+  margin-top: 50px;
+  height: 50px;
+  border: 1px solid #777;
+  padding: 0;
+  background-color: #eee;
+}
+
+ul {
+  margin: 0;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  display: block;
+  color: #a4d;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 1px solid #999;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 5px;
+  height: 15px;
+  width: 15px;
+}
+
+.nav a {
+  border-color: transparent;
+  height: 15px;
+  width: 60px;
+}
+
+.navm a {
+  color: grey;
+  border-color: transparent;
+}
+
+.mid {
+  border-style: hidden;
+}
+
+a:hover {
+  color: white;
+  background-color: #a5f;
+  border: 1px solid #91d;
+}
