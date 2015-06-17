@@ -8,18 +8,18 @@
 <body>
     <div>
         <ul>
-            <li class="nav"><a href="#">&#171 First</a></span>     
-            <li class="nav"><a href="#">&#171 Prev</a></span>
-            <li class="page"><a href="#">1</a></span>
-            <li class="page"><a href="#">2</a></span>
-            <li class="navm"><a href="#">...</a></span>
-            <li class="page"><a href="#">5</a></span>
-            <li class="page"><a href="#">6</a></span>
-            <li class="page"><a href="#">7</a></span>
-            <li class="page"><a href="#">8</a></span>
-            <li class="page"><a href="#">9</a></span>
-            <li class="nav"><a href="#">next &#187</a></span>
-            <li class="nav"><a href="#">last &#187</a></span>
+            <li class="nav"><a href="#"><span>&#171</span>first</a></li>     
+            <li class="nav"><a href="#"><span>&#171</span>prev</a></li>
+            <li class="page"><a href="#">1</a></li>
+            <li class="page"><a href="#">2</a></li>
+            <li class="navm"><a href="#">...</a></li>
+            <li class="page"><a href="#">5</a></li>
+            <li class="page"><a href="#">6</a></li>
+            <li class="page"><a href="#">7</a></li>
+            <li class="page"><a href="#">8</a></li>
+            <li class="page"><a href="#">9</a></li>
+            <li class="nav"><a href="#">next <span>&#187</span></a></li>
+            <li class="nav"><a href="#">last <span>&#187</span></a></li>
         </ul>
     </div>
 </body>
