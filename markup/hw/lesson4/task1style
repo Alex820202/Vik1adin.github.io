@@ -2,9 +2,12 @@ div {
   margin: auto;
   background: #a5f;
   line-height: 30px;
+  position: relative;
 }
 
 ul {
+  width: 900px;
+  margin: auto;
   font: 15px Impact, sans-serif;
 }
 
@@ -23,7 +26,6 @@ a {
   text-transform: uppercase;
   text-alighn: center;
   padding: 10px;
-  heighn: inherit;
 }
 
 a:hover {
