@@ -22,6 +22,7 @@ float: right;}
 a {
   display: block;
   color: white;
+  font: 1em Impact; 
   text-decoration: none;
   text-transform: uppercase;
   text-alighn: center;
