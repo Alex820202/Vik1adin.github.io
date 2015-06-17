@@ -1,26 +1,31 @@
 <!DOCTYPE html>
 <html>
+
 <head lang="en">
-    <meta charset="UTF-8">
-    <title>task3</title>
-    <link rel="stylesheet" type="text/css" href="task3style.css">
+  <meta charset="UTF-8">
+  <title>task3</title>
+  <link rel="stylesheet" type="text/css" href="task3style.css">
 </head>
+
 <body>
-    <div>
-        <ul>
-            <li class="nav"><a href="#"><span>&#171</span>first</a></li>     
-            <li class="nav"><a href="#"><span>&#171</span>prev</a></li>
-            <li class="page"><a href="#">1</a></li>
-            <li class="page"><a href="#">2</a></li>
-            <li class="navm"><a href="#">...</a></li>
-            <li class="page"><a href="#">5</a></li>
-            <li class="page"><a href="#">6</a></li>
-            <li class="page"><a href="#">7</a></li>
-            <li class="page"><a href="#">8</a></li>
-            <li class="page"><a href="#">9</a></li>
-            <li class="nav"><a href="#">next <span>&#187</span></a></li>
-            <li class="nav"><a href="#">last <span>&#187</span></a></li>
-        </ul>
-    </div>
+  <div>
+    <nav>
+      <span class="nav"><a href="#">&#171first</a>
+      </span>
+      <span class="nav"><a href="#">&#171prev</a>
+      </span>
+      <span class="page"><a href="#">1</a></span>
+      <span class="page"><a href="#">2</a></span>
+      <span class="navd"><a href="#">...</a></span>
+      <span class="page"><a href="#">5</a></span>
+      <span class="page"><a href="#">6</a></span>
+      <span class="page"><a href="#">7</a></span>
+      <span class="page"><a href="#">8</a></span>
+      <span class="page"><a href="#">9</a></span>
+      <span class="nav"><a href="#">next&#187</a>
+      </span>
+      <span class="nav"><a href="#">last&#187</a></span>
+    </nav>
+  </div>
 </body>
 </html>
