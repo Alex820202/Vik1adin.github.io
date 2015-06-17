@@ -1,0 +1,34 @@
+div {
+  margin: auto;
+  background: #a5f;
+  height: 38px;
+}
+
+nav {
+  width: 900px;
+  height: 30px;
+}
+
+span {
+  display: block;
+  float: left;
+}
+
+span:first-of-type { margin-left: 70px;}
+
+span:last-of-type { margin-left: 40px;}
+
+a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-alighn: center;
+  padding: 10px;
+}
+
+a:hover {
+  background-color: #fff;
+  color: #777;
+  box-shadow: 0 0 1px 1px;
+}
