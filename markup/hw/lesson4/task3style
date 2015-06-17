@@ -15,6 +15,7 @@ li {
 }
 
 a {
+  vertical-align:middle;
   display: block;
   color: #a4d;
   text-align: center;
@@ -43,4 +44,9 @@ a {
   color: white;
   background-color: #a5f;
   border: 1px solid #91d;
+}
+
+span {
+  vertical-align: 2px;
+  position: relative;
 }
