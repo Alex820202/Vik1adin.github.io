@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+   <head lang="en">
+    <meta charset="UTF-8">
+    <title>task1</title>
+    <link rel="stylesheet" type="text/css" href="">
+   </head>
+   <body>
+     <div>
+     <nav>
+         <span><a href="#">home</a></span>     
+         <span><a href="#">news</a></span>
+         <span><a href="#">economics</a></span>
+         <span><a href="#">local</a></span>
+         <span><a href="#">sport</a></span>
+         <span><a href="#">culture</a></span>
+         <span><a href="#">travels</a></span>
+         <span><a href="#">more</a></span>
+     </nav>
+     </div>
+   </body>
+</html>
