@@ -1,21 +1,18 @@
 div {
-  margin-top: 50px;
-  height: 50px;
-  border: 1px solid #777;
-  padding: 0;
-  background-color: #eee;
+  margin: auto;
+  background: #eee;
+  height: 41px;
+  width: 900px;
 }
 
-ul {
-  margin: 0;
-}
-
-li {
-  display: inline-block;
+span {
+  display: block;
+  float: left;
 }
 
 a {
-  vertical-align:middle;
+  position: reelative;
+  vertical-align: 10px;
   display: block;
   color: #a4d;
   text-align: center;
@@ -24,7 +21,7 @@ a {
   border: 1px solid #999;
   border-radius: 8px;
   padding: 10px;
-  margin: 5px;
+  margin: 2px;
   height: 15px;
   width: 15px;
 }
@@ -35,7 +32,7 @@ a {
   width: 60px;
 }
 
-.navm a {
+.navd a {
   color: grey;
   border-color: transparent;
 }
@@ -44,9 +41,4 @@ a {
   color: white;
   background-color: #a5f;
   border: 1px solid #91d;
-}
-
-span {
-  vertical-align: 2px;
-  position: relative;
 }
