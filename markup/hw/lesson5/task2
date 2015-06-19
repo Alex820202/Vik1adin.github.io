@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+   <head>
+    <meta charset="UTF-8"/>
+    <title>task2</title>
+    <link rel="stylesheet" type="text/css" href="task2style.css".css”/>
+   </head>
+<body>
+<div class="basis">
+  <div class="basis_header">BEST VALUE</div>
+  <div class="basis_canvas">
+    <div class="basis_canvas_header">ICONIC GRAPHICS</div>
+    <div class="price">25</div>
+    <div class="func_list_it1 x"><img class="tick" src="tick.png" alt="">PHP, PERL, ASP, JSP</div>
+    <div class="func_list_it2 x"><img class="tick" src="tick.png" alt="">SEMI DEDICATED</div>
+    <div class="func_list_it3 x"><img class="tick" src="tick.png" alt="">Staging or Production</div>
+    <div class="func_list_it4 x"><img class="tick" src="tick.png" alt="">Unlimited e-Mails</div>
+    <div class="it5"><button class="btn">ENROLL TODAY</button>
+  </div>
+</div>
+</body>    
+</html>
