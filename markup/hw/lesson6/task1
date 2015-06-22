@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>task2</title>
+    <link rel="stylesheet" type="text/css" href="task1style.css">
+</head>
+
+<body>
+    <div class="price_offers">
+
+        <div class="price_offers_title"> we have very flaxible offers for you to choose </div>
+
+        <div class="offers">
+
+            <div class="standard_offer">
+
+                <div class="standard_offer_pricing_bg">
+                    <div class="standard_offer_pricing_header"></div>
+                    <div class="standard_offer_pricing_header_offer_type">standard</div>
+                    <div class="standard_offer_pricing_header_offer_name">iconic graphics</div>
+                    <div class="standard_offer_pricing_value">10</div>
+                    <div class="standard_offer_pricing_list">
+                        <div>Unmetered Traffic</div>
+                        <div>Unlimited Domain</div>
+                        <div>Unlimited Databases</div>
+                        <div>Unlimited e-Mails</div>
+                    </div>
+                    <div class="standard_offer_enroll_btn">
+                        <button>enroll today</button>
+                    </div>
+                </div>
+            </div>
+            <div class="bv_offer">
+                <div class="bv_pricing_bg">
+                    <div class="bv_pricing_header"></div>
+                    <div class="bv_pricing_header_offer_type">best value</div>
+                    <div class="bv_pricing_header_offer_name">iconic graphics</div>
+                    <div class="bv_pricing_value">25</div>
+                    <div class="bv_pricing_list">
+                        <div>PHP, PERL, ASP, JSP</div>
+                        <div>SEMI DEDICATED</div>
+                        <div>Staging or Production</div>
+                        <div>Unlimited e-Mails</div>
+                    </div>
+                    <div class="bv_enroll_btn">
+                        <button>enroll today</button>
+                    </div>
+                </div>
+            </div>
+            <div class="ultimate_offer">
+                <div class="ultimate_offer_pricing_bg">
+                    <div class="ultimate_offer_pricing_header"></div>
+                    <div class="ultimate_offer_pricing_header_offer_type">Ultimate</div>
+                    <div class="ultimate_offer_pricing_header_offer_name">iconic graphics</div>
+                    <div class="ultimate_offer_pricing_value">35</div>
+                    <div class="ultimate_offer_pricing_list">
+                        <div>Semi Dedicated</div>
+                        <div>1TB Storage</div>
+                        <div>Faster Site, Better SEO</div>
+                        <div>Unlimited e-Mails</div>
+                    </div>
+                    <div class="ultimate_offer_enroll_btn">
+                        <button>enroll today</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
