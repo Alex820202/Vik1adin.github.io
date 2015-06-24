@@ -1,130 +1,143 @@
-.testimonials {      
-  position: fix;
+
+body {margin: 0;}
+
+  .testimonials {
   box-sizing: border-box;
   margin: 0 auto;
   width: 100%;
-  height: 315px;
+  height: 100%;
+  min-height:315px;
   background: url(task2ground.png);
-  background-clip:padding-box;
-  min-width: 600px;
+  background-clip: padding-box;
+  min-width: 900px;
   max-width: 1400px;
   border-style: double;
 }
-.testimonials_title {          
-  position:relative;
+
+.testimonials_title {
+  position: relative;
   box-sizing: border-box;
-  top:10%;
   width: 100%;
   min-width: 300px;
-  height: 50px;
+  height: 120px;
+  font: 40px Trebuchet MS, Sans-Serif;
+  line-height: 120px;
   text-transform: uppercase;
   color: #3170a8;
-  font: 40px Trebuchet MS, Sans-Serif;
-  line-height: 50px;
   text-align: center;
 }
-.testimonials_title span {         
+
+.testimonials_title span {
   color: #ee8129;
 }
-.testimonials_inn{        
+
+.testimonials_inn {
+  box-sizing: border-box;
+  height: 10%;
+  width: 100%;
+  min-width: 900px;
+  max-width: 1400px;
+  text-align: center;
+  padding-bottom: 80px;
+   }
+
+.testimonials_inn_pre {
   position: absolute;
   box-sizing: border-box;
-  height:98px;
-  width:1100px;
-  top:150px;
-  margin-left:150px;
-}
-.testimonials_inn_1{              
+  top: 35px;
+  right: 380px;
+  width: 0;
+  height: 0;
+  border: 16px solid;
+  border-color: transparent #ffffff transparent transparent;
+  }
+
+.testimonials_inn_name {
   position: absolute;
   box-sizing: border-box;
-  height:98px;
-  width:550px;
+  width: 190px;
+  max-width: 190px;
+  height: 40px;
+  max-height: 40px;
+  right: 190px;
+  line-height: 40px;
+  background: white;
+  color: #2e679b;
+  font-style: italic;
+  text-transform: capitalize;
+  text-align: left;
+  padding: 0 0 0 10px;
 }
-.testimonials_inn_1_pic{               
+
+.testimonials_inn_role {
+  position: absolute;
+  box-sizing: border-box;
+  width: 190px;
+  max-width: 190px;
+  height: 40px;
+  max-height: 40px;
+  right: 0;
+  line-height: 40px;
+  background: #ffffff;
+  color: #2e679b;
+  font-style: italic;
+  text-transform: capitalize;
+  padding: 0 10px 0 0;
+  text-align: right;
+  overflow: hidden;
+}
+
+.testimonials_inn_1 {
+  display:inline-block;
+  position: relative;
+  box-sizing: border-box;
+  height: 98px;
+  max-height: 98px;
+  width: 500px;
+  max-width: 500px;
+  margin: 10px 15px 10px;
+  }
+
+.testimonials_inn_1_pic {
   position: absolute;
   width: 99px;
   height: 98px;
   background: url(cast1.png);
-  } 
-.testimonials_inn_name{                                 
-  position: absolute;
-  box-sizing: border-box;
-  width: 190px;
-  height: 40px;
-  left:130px;
-  line-height: 40px;
-  background: white;
-  color:#2e679b;
-  font-style:italic;
-  text-transform:capitalize;
-  padding: 0 0 0 20px;
-  overflow: hidden;
 }
-.testimonials_inn_role{                        
+
+.testimonials_inn_text {
   position: absolute;
   box-sizing: border-box;
-  width: 190px;
-  height: 40px;
-  left:320px;
-  line-height: 40px;
-  color:#2e679b;
-  background: white;
-  font-style:italic;
-  text-transform:capitalize;
-  padding: 0 20px 0 0;
-  text-align:right;
-  overflow: hidden;
-}
-.testimonials_inn_text{
-  position: absolute;
-  box-sizing: border-box;
-  left:130px;
-  top:40px;
-  width: 380px;
+  right: 0;
+  top: 40px;
+  max-width: 380px;
+  max-height: 58px;
   height: 58px;
-  line-height:2em;
-  background: white;
-  color:#666666;
-  font:13px Trebuchet MS, Sans-Serif;                                
+  background: #ffffff;
+  color: #666666;
+  font: 13px Trebuchet MS, Sans-Serif;
   border-top: 1px dotted #666666;
   overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
   padding: 5px 10px;
+  letter-spacing: 0.4px;
 }
-.testimonials_inn_pre{               
-  position: absolute;
+
+.testimonials_inn_2 {
+  display:inline-block;
+  position: relative;
   box-sizing: border-box;
-  top:35px;
-  left: 100px;
-  width:1px;
-  height:1px;
-  border:15px solid;
-  border-color: transparent white transparent transparent;
- }
-.testimonials_inn_1_resp{  
-  position: absolute;
-  box-sizing: border-box;
-  width: 380px;
   height: 98px;
-  left:130px;
-  } 
-.testimonials_inn_2{                 
-  position: absolute;
-  box-sizing: border-box;
-  height:98px;
-  width:550px;
-  left:550px;
-}
-.testimonials_inn_2_pic{           
+  max-height: 98px;
+  width: 500px;
+  max-width: 500px;
+  margin: 10px 15px 10px;}
+
+.testimonials_inn_2_pic {
   position: absolute;
   width: 99px;
   height: 98px;
   background: url(cast2.png);
-  } 
-.testimonials_inn_2_resp{ 
-  position: absolute;
-  box-sizing: border-box;
-  width: 380px;
-  height: 98px;
-  left:130px;
-  } 
+}
 
