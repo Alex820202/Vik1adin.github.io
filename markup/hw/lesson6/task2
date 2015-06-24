@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>task2</title>
@@ -15,22 +16,22 @@
       <div class="testimonials_inn_1">
         <div class="testimonials_inn_1_pic"></div>
         <div class="testimonials_inn_pre"></div>
-        <div class="testimonials_inn_1_resp"></div>
         <div class="testimonials_inn_name">-staciya trollio</div>
         <div class="testimonials_inn_role">customer</div>
         <div class="testimonials_inn_text">Lorem Ipsum is simply dummy text of the printing and industry. Lorem Ipsum has been the industry. </div>
       </div>
    
+
       <div class="testimonials_inn_2">
         <div class="testimonials_inn_2_pic"></div>
         <div class="testimonials_inn_pre"></div>
-        <div class="testimonials_inn_2_resp"></div>
         <div class="testimonials_inn_name">-david soul</div>
-        <div class="testimonials_inn_role">customer</div>
-        <div class="testimonials_inn_text">Lorem Ipsum is simply dummy text of the printing and industry. Lorem Ipsum has been the industry. </div>
+        <div class="testimonials_inn_role">customer</div> 
+        <div class="testimonials_inn_text">Lorem Ipsum is simply dummy text of the printing and industry. Lorem Ipsum has been the industry.Lorem Ipsum is simply dummy text of the printing and industry. Lorem Ipsum has been the industry.Lorem Ipsum is simply dummy text of the printing and industry. Lorem Ipsum has been the industry. </div>
       </div>
     
     </div>
+ 
 
   </body>
 
