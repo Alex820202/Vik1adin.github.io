@@ -1,0 +1,62 @@
+.search_arrow_box 
+{
+  position: relative;
+  width: 80%;
+  min-width: 500px;
+  max-width: 1000px;
+  height: 48px;
+  background: -webkit-linear-gradient(top, rgba(245, 213, 133, 1) 0%, rgba(255, 207, 87, 1) 100%);
+  position: relative;
+  -webkit-clip-path: polygon(98% 0%, 100% 50%, 98% 100%, 0% 100%, 0 50%, 0% 0%);
+}
+
+.search_area 
+{
+  position: absolut;
+  margin: 4px 4px 0 4px;
+  width: calc(100% - 110px);
+  height: 20px;
+  border-bottom-style: none;
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  -webkit-box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.4);
+}
+
+.arrow_btn 
+{
+  box-sizing: border-box;
+  margin-right: 20px;
+  left: 100%;
+  width: 60px;
+  height: 21px;
+  color: #fffff;
+  font: 15px Trebuchet MS, sans-serif;
+  line-height: 10px;
+  border-radius: 3px;
+  border: 1px solid transparent;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1), 0 2px 2px -3px rgba(0, 0, 0, 0.25);
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+  cursor: pointer;
+}
+
+.checkbox 
+{
+  font-size: 15px;
+  margin-left: 2px;
+  vertical-align: bottom;
+  line-height: 23px;
+}
+
+.suggestion {
+  padding: 2px 2px 2px 4px;
+  font: 12px Trebuchet MS, sans-serif;
+}
+
+.suggestion_text {
+  font: 12px Trebuchet MS, sans-serif;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
