@@ -70,8 +70,7 @@ p:after
   margin-top: -2%;
 }
 
-.sight07 
-{
+.sight07 {
   font-size: 8.33%;
   margin-top: -1%;
 }
@@ -82,8 +81,7 @@ p:after
   margin-top: -0.8%;
 }
 
-.sight09 
-{
+.sight09 {
   font-size: 6.25%;
   margin-top: -0.6%;
 }
