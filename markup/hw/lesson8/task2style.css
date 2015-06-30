@@ -57,6 +57,5 @@
 
 .suggestion_text {
   font: 12px Trebuchet MS, sans-serif;
-  text-decoration: underline;
-  text-decoration-style: dotted;
+  border-bottom: 1px dotted black;
 }
