@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="task1style.css">
+  <title>task1</title>
+</head>
+
+<body>
+  <div class="search_arrow_box">
+    <form action="">
+      <input class="search_area" type="text" name="search" value="">
+      <input class="arrow_btn" type="submit" value="Найти" />
+    </form>
+    <span class="suggestion">Например,</span> <span class="suggestion_text">советник</span>
+  </div>
+</body>
+
+</html>
