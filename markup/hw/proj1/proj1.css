@@ -49,7 +49,7 @@ h1 {
     color: #989898;
     text-decoration: none;
     text-transform: uppercase;
-    font: 600 14px / 22px OpenSans;
+    font: 600 14px / 22px "Open Sans", sans-serif;
 }
 
 .menu a:hover {
@@ -75,6 +75,7 @@ h1 {
     box-sizing: border-box;
     padding: 0;
     text-align: center;
+    top: 20px;
 }
 
 .banner_text1_p1 {
@@ -153,7 +154,7 @@ h1 {
     max-width: 900px;
     width: 304px;
     height: 400px;
-    font: 12px/21px 'Open Sans', sans-serif;
+    font: 14px/25px 'Open Sans', sans-serif;
 }
 
 .services_inner_item_text_title {
@@ -184,9 +185,10 @@ h1 {
 .middle_section_text {
     position: relative;
     box-sizing: border-box;
-    margin-left: 150px;
-    width: 650px;
+    margin-left: 250px;
+    max-width: 650px;
     text-align: left;
+    top: 50px;
 }
 
 .middle_section_title {
@@ -572,13 +574,15 @@ h1 {
     min-height: 315px;
     width: 100%;
     height: 100%;
-    background: lightblue;
+    /*    background: lightblue;*/
+
     text-align: center;
 }
 
 .footer_inner {
     width: 100%;
-    background: green;
+    /*    background: green;*/
+
     text-align: center;
 }
 
@@ -586,51 +590,44 @@ h1 {
     display: inline-block;
     box-sizing: border-box;
     width: 700px;
-    background: red;
+    height: 345px;
+    /*    background: lightblue;*/
 }
 
-.footer_item_list
-{
+.footer_item_list {
+    left: 696px;
     display: inline-block;
     color: #666666;
-    font:600 14px / 30px OpenSans;
-    list-style: none;
+    font: 400 14px / 30px OpenSans;
+    list-style-type: none;
     width: 172px;
     text-align: left;
-
 }
 
-.contact_social_networks
-{
-  display: block;
-  background: pink;
-  list-style-type: none;
-  padding: 0;
+.contact_place {
+    list-style-image: url(images/twitter.png);
 }
 
-.contact_twitter {
-  background: url(images/Layer-99.png)96px 0px;
-  display: inline-block;
-  height: 47px;
-  margin-left: 30px;
-    width: 47px;}
-
-.contact_facebook {
-  background: url(images/Layer-98.png)96px 0px;
-  display: inline-block;
-  height: 47px;
-  margin-left: 30px;
-  width: 47px;
-}
-.contact_linkedin
-{
-background:url(images/in.png)96px 0px;
-  display: inline-block;
-  height: 47px;
-  margin-left: 30px;
-  width: 47px;
+.contact_phone {
+    list-style-image: url(images/twitter.png);
 }
 
+.contact_email {
+    list-style-image: url(images/twitter.png);
+}
+
+.contact_social_networks {
+    display: block;
+    /*    background: pink;*/
+
+    list-style-type: none;
+    padding: 0;
+}
+
+.social_nw {
+    display: inline-block;
+    margin-right: 20px
+}
 
 .footer_bottom {
     display: block;
@@ -649,8 +646,9 @@ background:url(images/in.png)96px 0px;
     font: 400 14px / 30px OpenSansOpenSans;
 }
 
-.footer_bottom span:last-child {
+.footer_bottom_inner a {
     color: #1d1b1b;
+    text-decoration: none;
 }
 
 .footer_company_name {
