@@ -180,6 +180,7 @@ h1 {
     background-image: url(images/middlesectionbg.png);
     background-origin: padding-box;
     background-size: cover;
+    text-align: center;
 }
 
 .middle_section_text {
@@ -189,6 +190,7 @@ h1 {
     max-width: 650px;
     text-align: left;
     top: 50px;
+    display: inline-block;
 }
 
 .middle_section_title {
@@ -600,26 +602,28 @@ h1 {
     color: #666666;
     font: 400 14px / 30px OpenSans;
     list-style-type: none;
-    width: 172px;
     text-align: left;
+    text-decoration: none;
+}
+.footer_item_list li
+{
+    padding-left: 20px;
 }
 
 .contact_place {
-    list-style-image: url(images/twitter.png);
+    list-style-image:url(images/Layer-97.png);
 }
 
 .contact_phone {
-    list-style-image: url(images/twitter.png);
+    list-style-image:url(images/Vector-Smart-Object.png);
 }
 
 .contact_email {
-    list-style-image: url(images/twitter.png);
+    list-style-image:url(images/Vector-Smart-Object.png);
 }
 
 .contact_social_networks {
     display: block;
-    /*    background: pink;*/
-
     list-style-type: none;
     padding: 0;
 }
