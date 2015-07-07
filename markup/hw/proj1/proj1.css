@@ -17,7 +17,7 @@ h1 {
 .header_inn {
     display: inline-block;
     box-sizing: border-box;
-    margin: 20px auto;
+    margin:15px auto;
     width: 100%;
     text-align: center;
 }
@@ -587,7 +587,7 @@ h1 {
     display: inline-block;
     box-sizing: border-box;
     width: 700px;
-    height: 345px;
+    vertical-align: middle;
 }
 
 .footer_item_list {
