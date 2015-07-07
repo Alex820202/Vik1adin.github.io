@@ -10,7 +10,6 @@ h1 {
     margin: 0 auto;
     padding: 0;
     width: 100%;
-    background: blue;
     background-size: cover;
     text-align: center;
 }
@@ -20,8 +19,8 @@ h1 {
     margin: 20px auto;
     min-width: 900px;
     width: 100%;
-    height: 10%;
     text-align: center;
+    display: inline-block;
 }
 
 .header_inn_company_logo {
@@ -35,7 +34,6 @@ h1 {
     margin-left: 50px;
     width: 563px;
     height: 38px;
-    background: #000;
     cursor: auto;
 }
 
@@ -82,7 +80,6 @@ h1 {
     padding: 0;
     width: 880px;
     text-align: center;
-    /*  background: #000;*/
 }
 
 .banner_text1_p1 {
@@ -106,8 +103,6 @@ h1 {
     padding: auto;
     width: 576px;
     height: 60px;
-    /*  background: aquamarine;*/
-
     color: #ffffff;
     text-align: center;
     text-align: justify;
@@ -137,50 +132,55 @@ h1 {
 }
 
 .services {
-    display: block;
-    height: 476px;
-    margin-bottom: 0px;
-    margin-left: 23.40625px;
-    margin-right: 23.40625px;
-    margin-top: 25px;
-    max-width: 1024px;
-    text-align: justify;
-    width: 421.1875px;
+    width: 100%;
+/*    height: 100%;*/
+    text-align: center;
+    margin: 0 auto;
+    background: #ffffff;
 }
 
-.services:after {
+
+.services_child_title {
     display: inline-block;
     width: 100%;
-    content: "";
-}
-
-.services_title {
     color: #40525c;
-    display: block;
-    text-align: justify;
-    max-width: 1024px;
-}
+    vertical-align: middle;
+    text-align: center;
+    text-transform: uppercase;
+    font: bold 24px/60px "Trebuchet MS", sans-serif;
+    background: pink;
+    }
 
-.services_item {
-    display: block;
+.services_item
+{
+    display: inline-block;
+    margin: 0 auto;
     font: 12px/21px 'Open Sans', sans-serif;
-    margin: 25px auto;
+    margin: 25px 10px;
     max-width: 900px;
     overflow: hidden;
     position: relative;
-    width: 90%;
+    width: 304px;
+    background: #000;
+    height: 400px;
+    z-index: 0;
 }
 
-.services_item_inline {
-    display: inline-block;
-    margin: 0;
+.services_inner_item_text_title
+{
+   font: 300 30.06px FuturaBT;
+    text-transform: uppercase;
+    color: #3070a8;
+    text-align: center;
+}
+.services_inner_item_text_inf
+{
+    text-align: justify;
+    overflow: hidden;
+    font: 400 14px / 25px OpenSans;
+    color: #999999;
 }
 
-.services_item_inner {
-    float: right;
-    text-align: left;
-    width: 80%;
-}
 
 .middle_section {
     box-sizing: border-box;
@@ -202,13 +202,13 @@ h1 {
     text-align: left;
     position: relative;
     top: 73px;
-  }
+}
 
 .middle_section_title {
     color: #ee8129;
     text-transform: uppercase;
     font: 300 26px / 48px FuturaBT;
-  }
+}
 
 .middle_section_annotation {
     color: #ffffff;
@@ -253,19 +253,18 @@ h1 {
     line-height: 24px;
 }
 
-
 .offers {
- width: 100%;
-  height: 100%;
-  text-align:center;
-  margin:0 auto;
-  background: #ffffff;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin: 0 auto;
+    background: #ffffff;
 }
 
 .offers_child_title {
     display: inline-block;
     width: 100%;
-    color:#40525c;
+    color: #40525c;
     vertical-align: middle;
     text-align: center;
     text-transform: uppercase;
@@ -273,8 +272,8 @@ h1 {
 }
 
 .inner_item {
-  display: inline-block;
-  margin:0 auto;
+    display: inline-block;
+    margin: 0 auto;
 }
 
 .inner_item_1,
@@ -288,13 +287,16 @@ h1 {
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
     position: relative;
 }
-.inner_item_1{
-right:-10px;
- z-index: 0;}
 
-.inner_item_3{
-left:-10px;
- z-index: 0;}
+.inner_item_1 {
+    right: -10px;
+    z-index: 0;
+}
+
+.inner_item_3 {
+    left: -10px;
+    z-index: 2;
+}
 
 .inner_item_2 {
     display: inline-block;
@@ -305,7 +307,7 @@ left:-10px;
     border-radius: 5px;
     background: #ffffff;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-    z-index: 1;
+    z-index: 1500;
 }
 
 .inner_header {
@@ -385,6 +387,7 @@ left:-10px;
 .inner_list li:nth-child(2n+1) {
     margin-left: -40px;
     padding: 10px 10px 10px 40px;
+    border-bottom: 1px solid white;
     background: #edf5fd;
 }
 
@@ -432,7 +435,6 @@ left:-10px;
     text-shadow: 0px 0px 4px #FFFFFF;
     cursor: pointer;
 }
-
 
 .testimonials {
     box-sizing: border-box;
@@ -577,4 +579,46 @@ left:-10px;
     position: absolute;
     width: 99px;
     height: 98px;
+}
+
+.footer
+{
+ width: 100%;
+    background: lightblue;
+       box-sizing: border-box;
+    margin: 0 auto;
+    min-width: 900px;
+    min-height: 315px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.foooter_item
+{
+ display: inline-block;
+box-sizing: border-box;
+}
+
+
+.footer_map
+{
+   display: inline-block;
+       width:700px;
+    height: 305px;
+}
+
+
+.footer_inner
+{
+     display: inline-block;
+    width:700px;
+    height: 305px;
+    background: red;
+}
+
+.footer_bottom
+{
+    border-color: #3070a8;
+    width: 100%;
 }
