@@ -59,11 +59,8 @@ h1 {
 
 .banner {
     display: block;
-    overflow-x: hidden;
-    overflow-y: hidden;
     margin-top: 0;
     width: 100%;
-    height: 585px;
     background-image: url(images/bannerbg.png);
     background-attachment: scroll;
     background-origin: padding-box;
@@ -76,9 +73,7 @@ h1 {
     position: relative;
     display: block;
     box-sizing: border-box;
-    margin: 130px auto 0 auto;
     padding: 0;
-    /*    width: 880px;*/
     text-align: center;
 }
 
@@ -141,7 +136,6 @@ h1 {
 .services_child_title {
     display: inline-block;
     width: 100%;
-    background: pink;
     color: #40525c;
     vertical-align: middle;
     text-align: center;
@@ -159,7 +153,6 @@ h1 {
     max-width: 900px;
     width: 304px;
     height: 400px;
-    background: #000;
     font: 12px/21px 'Open Sans', sans-serif;
 }
 
@@ -192,7 +185,7 @@ h1 {
     position: relative;
     box-sizing: border-box;
     margin-left: 150px;
-    width: 45%;
+    width: 650px;
     text-align: left;
 }
 
@@ -586,15 +579,58 @@ h1 {
 .footer_inner {
     width: 100%;
     background: green;
+    text-align: center;
 }
 
 .footer_item {
     display: inline-block;
     box-sizing: border-box;
     width: 700px;
-    height: 305px;
     background: red;
 }
+
+.footer_item_list
+{
+    display: inline-block;
+    color: #666666;
+    font:600 14px / 30px OpenSans;
+    list-style: none;
+    width: 172px;
+    text-align: left;
+
+}
+
+.contact_social_networks
+{
+  display: block;
+  background: pink;
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact_twitter {
+  background: url(images/Layer-99.png)96px 0px;
+  display: inline-block;
+  height: 47px;
+  margin-left: 30px;
+    width: 47px;}
+
+.contact_facebook {
+  background: url(images/Layer-98.png)96px 0px;
+  display: inline-block;
+  height: 47px;
+  margin-left: 30px;
+  width: 47px;
+}
+.contact_linkedin
+{
+background:url(images/in.png)96px 0px;
+  display: inline-block;
+  height: 47px;
+  margin-left: 30px;
+  width: 47px;
+}
+
 
 .footer_bottom {
     display: block;
