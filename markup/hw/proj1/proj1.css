@@ -186,7 +186,7 @@ h1 {
 .middle_section_text {
     position: relative;
     box-sizing: border-box;
-    margin-left: 250px;
+    margin-left: -250px;
     max-width: 650px;
     text-align: left;
     top: 50px;
@@ -363,8 +363,7 @@ h1 {
 .inner_list {
     display: inline-block;
     box-sizing: border-box;
-    margin-top: -20px;
-    width: 90%;
+    margin: -20px 10px 10px 10px;
     background: transparent;
     color: #888c94;
     list-style-position: inside;
@@ -576,15 +575,11 @@ h1 {
     min-height: 315px;
     width: 100%;
     height: 100%;
-    /*    background: lightblue;*/
-
     text-align: center;
 }
 
 .footer_inner {
     width: 100%;
-    /*    background: green;*/
-
     text-align: center;
 }
 
@@ -593,7 +588,6 @@ h1 {
     box-sizing: border-box;
     width: 700px;
     height: 345px;
-    /*    background: lightblue;*/
 }
 
 .footer_item_list {
