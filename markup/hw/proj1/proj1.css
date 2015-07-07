@@ -71,11 +71,11 @@ h1 {
 
 .banner_text1 {
     position: relative;
+    top: 20px;
     display: block;
     box-sizing: border-box;
     padding: 0;
     text-align: center;
-    top: 20px;
 }
 
 .banner_text1_p1 {
@@ -184,13 +184,13 @@ h1 {
 }
 
 .middle_section_text {
-    position: relative;
-    box-sizing: border-box;
-    margin-left: -250px;
-    max-width: 650px;
-    text-align: left;
-    top: 50px;
-    display: inline-block;
+   position: relative;
+  top: 50px;
+  display: block;
+  box-sizing: border-box;
+  padding-left: 200px;
+  max-width: 800px;
+  text-align: left;
 }
 
 .middle_section_title {
@@ -594,10 +594,10 @@ h1 {
     left: 696px;
     display: inline-block;
     color: #666666;
-    font: 400 14px / 30px OpenSans;
     list-style-type: none;
     text-align: left;
     text-decoration: none;
+    font: 400 14px / 30px OpenSans;
 }
 .footer_item_list li
 {
@@ -618,8 +618,8 @@ h1 {
 
 .contact_social_networks {
     display: block;
-    list-style-type: none;
     padding: 0;
+    list-style-type: none;
 }
 
 .social_nw {
