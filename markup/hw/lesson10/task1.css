@@ -17,6 +17,10 @@ a {
     color: #2d3950;
     text-align: center;
     font: 400 41px Lato;
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    padding: 0;
 }
 
 .portfolio_title_mailto {
@@ -31,10 +35,12 @@ a {
 
 
 .item_container{
-    width: 70%;
+    max-width: 1210px;
+    min-width: 360px;
     background: green;
     text-align: center;
     margin: 50px auto;
+    height: 100%;
 }
 
 .portfolio_item {
@@ -86,13 +92,12 @@ a {
     margin: 2px;
 }
 .btn:hover{
-/*
   box-shadow: 0px 0px 1px 1px rgba(255,      255,      255,      0.5);
   cursor: pointer;
   -webkit-transform: scale(1.12);
   transform: scale(1.12);
   transition:all 0.15s ease 0.15s;
-*/
+/*    background-color:rgba(37, 166, 247, 0.9);*/
 }
 
 .btn_zoom {
