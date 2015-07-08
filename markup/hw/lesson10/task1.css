@@ -1,0 +1,126 @@
+div,
+h1,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+.potfolio {
+    box-sizing: border-box;
+    width: 100%;
+    background: pink;
+    text-align: center;
+}
+
+.portfolio_title {
+    background: aquamarine;
+    color: #2d3950;
+    text-align: center;
+    font: 400 41px Lato;
+}
+
+.portfolio_title_mailto {
+    display: block;
+    background: red;
+    color: #909090;
+    text-align: center;
+    text-decoration: none;
+    font: 400 15px / 23px Lato;
+    margin: 10px auto;
+}
+
+
+.item_container{
+    width: 70%;
+    background: green;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.portfolio_item {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 360px;
+    height: 260px;
+    overflow: hidden;
+    margin: 10px;
+    text-align: center;
+    -webkit-transition: opacity .25s ease;
+    -moz-transition: opacity .25s ease;
+}
+
+.overlay {
+    background: rgba(37, 166, 247, 0.9);
+    opacity: 0;
+    -webkit-transition: opacity .25s ease;
+    -moz-transition: opacity .25s ease;
+    width: 360px;
+    height: 260px;
+    box-sizing: border-box;
+}
+
+.portfolio_item:hover .overlay {
+    opacity: 0.8;
+}
+
+.item_1 {
+    background: url(Layer-37.png);
+}
+
+.btn_container {
+    width: 100%;
+    top: 41%;
+/*    background: #000;*/
+    position: relative;
+    text-align: center;
+}
+
+.btn {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #ffffff;
+    border-radius: 2px;
+    background: transparent;
+    color: #ffffff;
+    cursor: pointer;
+    margin: 2px;
+}
+.btn:hover{
+/*
+  box-shadow: 0px 0px 1px 1px rgba(255,      255,      255,      0.5);
+  cursor: pointer;
+  -webkit-transform: scale(1.12);
+  transform: scale(1.12);
+  transition:all 0.15s ease 0.15s;
+*/
+}
+
+.btn_zoom {
+    background: url(zoom.png) no-repeat;
+    background-position: center;
+}
+
+.btn_link {
+    background: url(link.png) no-repeat;
+    background-position: center;
+}
+.item_2 {
+    background: url(Layer-31.png);
+}
+
+.item_3 {
+    background: url(Layer-32.png);
+}
+
+.item_4 {
+    background: url(Layer-33.png);
+}
+
+.item_5 {
+    background: url(Layer-34.png);
+}
+
+.item_6 {
+    background: url(Layer-35.png);
+}
+

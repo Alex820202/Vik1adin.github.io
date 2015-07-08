@@ -626,6 +626,7 @@ h1 {
   -webkit-transform: scale(1.12);
   transform: scale(1.12);
   transition:all 0s ease 0s;
+/*    -webkit-filter:  grayscale(100%) brightness(51%);*/
 }
 
 .social_nw {
