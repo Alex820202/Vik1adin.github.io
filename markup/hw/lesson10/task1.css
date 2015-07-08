@@ -98,12 +98,6 @@ input[type="radio"]
   transition:all 0.15s ease 0.15s;
 }
 
-.rb_container .zoom_1:checked .it1_zoom{
-    display: block;
-}
-
-
-
 .it1_zoom {
     position: absolute;
     width: 1150px;
@@ -111,8 +105,17 @@ input[type="radio"]
     background:url(images/Layer-31.png);
     background-size: cover;
     box-sizing: border-box;
-    display: none;
+/*    display: none;*/
 }
+
+
+.rb_container .item_1 .zoom_1:checked .it1_zoom{
+   display: block;
+}
+
+
+
+
 
 .item_1 {
     background: url(Layer-37.png);
