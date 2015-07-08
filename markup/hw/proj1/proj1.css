@@ -622,6 +622,12 @@ h1 {
     list-style-type: none;
 }
 
+.transition_scale:hover {
+  -webkit-transform: scale(1.12);
+  transform: scale(1.12);
+  transition:all 0s ease 0s;
+}
+
 .social_nw {
     display: inline-block;
     margin-right: 20px
