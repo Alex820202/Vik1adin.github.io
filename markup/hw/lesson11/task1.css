@@ -13,7 +13,6 @@ a {
 }
 
 .portfolio_title {
-    background: aquamarine;
     color: #2d3950;
     text-align: center;
     font: 400 41px Lato;
@@ -21,12 +20,11 @@ a {
     position: relative;
     display: block;
     padding: 0;
-    margin: 80px auto 20px auto;
+    margin: 70px auto 20px auto;
 }
 
 .portfolio_title_mailto {
     display: block;
-    background: red;
     color: #909090;
     text-align: center;
     text-decoration: none;
@@ -41,6 +39,7 @@ a {
     text-align: center;
     margin: 50px auto;
     height: 100%;
+    padding: 50px 0 50px 0;
 }
 
 .portfolio_item {
@@ -69,7 +68,6 @@ a {
     opacity: 0.8;
 }
 
-
 .rb_container {
     width: 100%;
     top: 41%;
@@ -87,41 +85,40 @@ a {
     margin: 5px;
 }
 
-input[type="radio"]
-{ display:none; }
+input[type="radio"] {
+    display: none;
+}
 
-
- .btn:hover{
-  box-shadow: 0px 0px 1px 1px rgba(255,      255,      255,      0.5);
-  cursor: pointer;
-  -webkit-transform: scale(1.12);
-  transform: scale(1.12);
-  transition:all 0.15s ease 0.15s;
+.btn:hover {
+    box-shadow: 0px 0px 1px 1px rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    -webkit-transform: scale(1.12);
+    transform: scale(1.12);
+    transition: all 0.15s ease 0.15s;
 }
 
 .item_1 {
-    background:url(images/Normal.png);
+    background: url(images/Normal.png);
 }
 
-
 .item_2 {
-    background:url(images/Layer-31.png);
+    background: url(images/Layer-31.png);
 }
 
 .item_3 {
-    background:url(images/Layer-32.png)
+    background: url(images/Layer-32.png)
 }
 
 .item_4 {
-    background:url(images/Layer-33.png);
+    background: url(images/Layer-33.png);
 }
 
 .item_5 {
-    background:url(images/Layer-34.png);
+    background: url(images/Layer-34.png);
 }
 
 .item_6 {
-    background:url(images/Layer-35.png);
+    background: url(images/Layer-35.png);
 }
 
 .zoompic {
@@ -135,6 +132,7 @@ input[type="radio"]
     position: fixed;
     cursor: default;
 }
+
 .zoompic:target {
     display: block;
 }
@@ -143,13 +141,10 @@ input[type="radio"]
     top: -100%;
     right: 0;
     left: 50%;
-    /* font-size: 14px; */
     z-index: 20;
     margin: 0;
     width: 1150px;
-    height:569px;
-/*    min-width: 320px;
-    max-width: 600px;*/
+    height: 900px;
     position: fixed;
 }
 
@@ -175,23 +170,24 @@ input[type="radio"]
     font: 13px/30px 'Tahoma', Arial, sans-serif;
     font-weight: bold;
 }
+
 .close:before {
     color: rgba(255, 255, 255, 0.9);
     content: "X";
     text-shadow: 0 -1px rgba(0, 0, 0, 0.9);
     font-size: 12px;
 }
+
 .close:hover {
     background-color: rgba(252, 20, 0, 0.8);
-
 }
+
 .popup img {
     width: 100%;
     height: 569px;
-   }
+}
 /*.popup img {
     width: 100%;
     height: 569px;
     background: url(http://lorempixel.com/1150/569/sports);
 }*/
-
