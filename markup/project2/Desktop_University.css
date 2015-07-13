@@ -1,0 +1,287 @@
+div,
+h1,
+h2,
+p {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.top {
+    background: #3498db;
+    /*    max-width: 1920px;*/
+
+    width: 100%;
+    height: 78px;
+    margin: 0;
+    text-align: center;
+}
+
+.top_container{
+    width: 60%;
+background: yellow;
+display: inline-block;}
+.logo {
+    display: inline-block;
+    background: green;
+}
+
+.social_icons {
+    background: red;
+    width: 200px;
+    height: 100%;
+    display: inline-block;
+}
+}
+.social_icons_pre {
+    font: 400 13px / 32px Helvetica;
+    color: #ffffff;
+    display: inline-block;
+    background: blue;
+}
+.social_icons_container {
+    display: inline-block;
+    /*    background: aqua;*/
+
+    padding: auto;
+}
+.social_icons_container a {
+    text-decoration: none;
+}
+.social_icons_container a {
+    text-decoration: none;
+}
+/*
+.icon1,
+.icon2,
+.icon3 {
+    text-decoration: none;
+
+}
+*/
+/*
+.social_icons_container img:hover,
+{
+    transform: scale(1.12);
+    transition: all 0s ease 0s;
+}
+*/
+
+.banner {
+    width: 100%;
+    background: url(images/heder_bottom_bg.png);
+    width: 100%;
+    height: 351px;
+    box-sizing: border-box;
+    display: block;
+    margin-top: 0;
+    text-align: center;
+}
+.banner_container {
+    width: 60%;
+    box-sizing: border-box;
+    background: palegreen;
+    color: #ffffff;
+    display: inline-block;
+}
+.banner_container h2 {
+    text-align: left;
+    text-transform: uppercase;
+    font: 700 50px / 42px Helvetica;
+}
+.banner_container p {
+    text-align: justify;
+    font: 400 30px / 40px Helvetica;
+    background: lightgreen;
+    box-sizing: border-box;
+}
+.about_us {
+    width: 100%;
+    height: 252px;
+    background: #f2f2f2;
+    text-align: center;
+}
+.about_us_container {
+    width: 60%;
+    box-sizing: border-box;
+    background: lightcoral;
+    display: inline-block;
+}
+.about_us_container h2 {
+    font: 700 15px / 42px Helvetica;
+}
+.about_us_container p {
+    font: 400 13px / 20px Helvetica;
+    padding-top: 10px;
+}
+.services {
+    margin: 0 auto;
+    width: 100%;
+/*    height: 550px;*/
+    background: #ffffff;
+    text-align: center;
+}
+.services_container {
+    width: 60%;
+    box-sizing: border-box;
+    background: lightblue;
+    display: inline-block;
+}
+.services_container_title {
+    display: inline-block;
+    width: 100%;
+    color: #3498db;
+    vertical-align: middle;
+    text-align: left;
+    text-transform: uppercase;
+    font: 400 25px / 42px Helvetica;
+}
+.services_item {
+    position: relative;
+    z-index: 0;
+    display: inline-block;
+    overflow: hidden;
+    margin: 0 auto;
+    margin: 25px 2%;
+    max-width: 900px;
+    width: 290px;
+    /*    height: 400px;*/
+
+    background: blue;
+}
+.services_inner_item_text_title {
+    text-align: center;
+    text-transform: uppercase;
+    font: 700 15px / 42px Helvetica;
+}
+.services_inner_item_text_inf {
+    overflow: hidden;
+    text-align: justify;
+    font: 400 13px / 20px Helvetica;
+}
+.services_view_btn {
+    border: 1px solid #C0C0C0;
+    border-radius: 50%;
+    height: 52px;
+    width: 52px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.services_view_btn a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #333333;
+}
+.services_view_btn:hover {
+    background: #C0C0C0;
+}
+.testimonials {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    text-align: center;
+}
+.testimonials_container {
+    background: aquamarine;
+    width: 60%;
+    box-sizing: border-box;
+    text-align: left;
+    display: inline-block;
+}
+.testimonials_container_title {
+    display: inline-block;
+    /*    width: 100%;*/
+
+    color: #3498db;
+    vertical-align: middle;
+    text-align: left;
+    text-transform: uppercase;
+    font: 400 25px / 42px Helvetica;
+}
+.testimonials_client_comment {
+    overflow: hidden;
+    /*    text-align: justify;*/
+
+    font: 400 13px / 20px Helvetica;
+}
+.testimonials_client_name {
+    text-align: right;
+    font: 700 13px / 42px Helvetica;
+}
+.testimonials_pager {
+    margin-left: 35%;
+    right: 0;
+    top: 0;
+    display: inline-block;
+}
+.testimonials_pager_item {
+    text-decoration: none;
+    border: 1px solid #C0C0C0;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+.testimonials_pager_item a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.testimonials_pager_item:hover {
+    background: #C0C0C0;
+}
+.footer {
+    width: 100%;
+    color: #ffffff;
+
+}
+
+.footer_top{
+width: 100%;
+background: #f2f2f2;
+    text-align: center;
+}
+.footer_top_container {
+    background: black;
+    width: 60%;
+    height: 191px;
+    display: inline-block;
+}
+.footer_top_btn {
+    width: 540px;
+    height: 60px;
+    background: #e74c3c;
+    margin-top: 65px;
+    margin-bottom: 65px;
+}
+.footer_top_btn a {
+    font: 400 25px / 42px Helvetica;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+}
+.footer_top_btn:hover {
+    background: #d62c1a;
+}
+.guy_img {
+    background: url(images/图层-2.png);
+    display: inline-block;
+}
+.footer_bottom{
+width:100%;
+
+    text-align: center;
+
+}
+.footer_bottom_container {
+       width: 60%;
+    height: 194px;
+    display: inline-block;
+    background: #3498db;
+}
+.footer_bottom_logo {
+    border-right: 1px solid 2a80bc;
+    width: 156px;
+}
+.footer_logo_circle {
+    float: left;
+}
