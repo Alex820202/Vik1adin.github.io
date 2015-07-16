@@ -82,6 +82,12 @@ textarea {
 
 .social_net a,   .footer_social_net a {
     text-decoration: none;
+    opacity:0.8;
+}
+
+.social_net a:hover,   .footer_social_net a:hover {
+    text-decoration: none;
+    opacity:1;
 }
 
 .banner {
@@ -117,6 +123,91 @@ textarea {
     box-sizing: border-box;
     width: 53%;
 }
+
+.banner_form {
+    position: absolute;
+    width: 360px;
+    height: 541px;
+    box-sizing: border-box;
+    border-bottom: 5px solid #3497D9;
+    top:100px;
+    right: 10%;
+    background-color: #ffffff;
+}
+
+.banner_form h2 {
+    color: #333333;
+    font: 400 25px / 20px Helvetica;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 78px;
+}
+
+.banner_form form {
+    margin:  0 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.banner_form form input[name="select_course"] {
+    background: url(../images/row_down.png) no-repeat center right 10px;
+    background-color: #f2f2f2;
+}
+
+
+.banner_form form input {
+    width: 320px;
+    height: 36px;
+    margin-bottom: 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #E5E5E5;
+    padding-left: 17px;
+    color: #333333;
+    font: 400 15px / 20px Helvetica;
+    box-sizing: border-box;
+}
+
+
+
+.banner_form form textarea {
+    width: 320px;
+    height: 76px;
+    resize: none;
+    margin-bottom: 7px;
+    padding: 10px 17px;
+    background-color: #f2f2f2;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    color: #333333;
+    font: 400 15px / 20px Helvetica;
+}
+
+::-webkit-resizer {
+    display: none;
+}
+
+
+::-webkit-input-placeholder {
+    color: #333333;
+    font: 400 15px / 20px Helvetica;
+}
+
+.banner_form form input[type="submit"] {
+    background-color: #e74c3c;
+    margin: 18px auto;
+    padding-left: 0;
+    width: 220px;
+    height: 50px;
+    color: #ffffff;
+    font: 400 25px / 28px Helvetica;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.banner_form form input[type="submit"]:hover {
+    background: #d62c1a;
+}
+
 
 .about_us {
     max-width: 1920px;
@@ -214,6 +305,7 @@ textarea {
 .services_inner_item_text_inf {
     overflow: hidden;
     font: 400 13px / 20px Helvetica;
+    text-align: justify;
 }
 
 .services_view_btn {
@@ -251,8 +343,6 @@ hr {
     margin: 0 auto;
     max-width: 1920px;
     width: 100%;
-    /*    height: 100%;*/
-
     background: #ffffff;
     text-align: center;
 }
@@ -359,6 +449,7 @@ hr {
     margin-top: 65px;
     margin-bottom: 65px;
     border: none;
+    display: inline-block;
 }
 
 .footer_top_btn a {
@@ -379,17 +470,16 @@ hr {
 .footer_top_btn:hover {
     background: #d62c1a;
 }
-/*
 .guy_img {
     margin: 0 auto;
     width: 225px;
     height: 364px;
-    background: "url(images/boy.png)" no-repeat;
-    position: absolute;
+    background:url(images/boy.png);
+/*    position: absolute;*/
     right: 10%;
     top: -173px;
+    display: inline-block;
 }
-*/
 
 .footer_bottom {
     max-width: 1920px;
@@ -415,27 +505,28 @@ hr {
     margin-top: 50px;
 }
 
-.footer_cirle_logo {
+.footer_circle_logo {
     width: 67px;
     height: 67px;
     display: inline-block;
     background: yellow;
     margin: 0;
+    padding:5px;
     }
 .footer_text_logo {
     text-transform: uppercase;
-    font: 400 26px / 30px Helvetica;
+    font: 400 23px / 30px Helvetica;
     text-align: left;
     display: inline-block;
     background: salmon;
     vertical-align: top;
     margin:0;
-    padding: 5px 0 5px 0;
+    padding: 9px 0;
 }
 
 .sn_cr_container{
     box-sizing: border-box;
-    margin-top: 60px;
+    margin-top: 70px;
     background: black;
     display: inline-block;
     padding-left: 20px;
