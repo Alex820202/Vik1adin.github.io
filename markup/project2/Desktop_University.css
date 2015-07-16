@@ -80,7 +80,7 @@ textarea {
     color: #ffffff;
 }
 
-.social_net a {
+.social_net a,   .footer_social_net a {
     text-decoration: none;
 }
 
@@ -263,7 +263,7 @@ hr {
     box-sizing: border-box;
     text-align: left;
     display: inline-block;
-    padding: 0 30% 0 12%;
+    padding: 2% 12% 0 12%;
 }
 
 .testimonials_container_title {
@@ -285,6 +285,7 @@ hr {
 .testimonials_client_comment {
     overflow: hidden;
     font: 400 13px / 20px Helvetica;
+    width: 70%;
     background: yellow;
 }
 
@@ -294,10 +295,12 @@ hr {
 }
 
 .testimonials_pager {
-    margin-left: 35%;
     right: 0;
     top: 0;
     display: inline-block;
+    background: black;
+    padding: 2px;
+    float: right;
 }
 
 .testimonials_pager_item {
@@ -306,10 +309,17 @@ hr {
     border-radius: 50%;
     height: 40px;
     width: 40px;
+    opacity:0.8;
 }
 
-.testimonials_pager_item left {
-    background: url(images/pagerarrowleft.png)
+.testimonials_pager_item.left {
+    background: url(images/pagerarrowleft.png)  center no-repeat;
+/*    opacity: 0.5;*/
+}
+
+.testimonials_pager_item.right {
+    background: url(images/pagerarrowright.png) center no-repeat;
+/*    opacity: 0.5;*/
 }
 
 .testimonials_pager_item a {
@@ -318,9 +328,8 @@ hr {
 }
 
 .testimonials_pager_item:hover {
-    background: #C0C0C0;
+    opacity:1;
 }
-
 .footer {
     max-width: 1920px;
     width: 100%;
@@ -385,7 +394,6 @@ hr {
 .footer_bottom {
     max-width: 1920px;
     width: 100%;
-    text-align: center;
 }
 
 .footer_bottom_container {
@@ -401,8 +409,10 @@ hr {
     box-sizing: border-box;
     background: black;
     display: inline-block;
-    padding: 0;
+    padding-right: 20px;
     text-align: left;
+    float: left;
+    margin-top: 50px;
 }
 
 .footer_cirle_logo {
@@ -414,15 +424,35 @@ hr {
     }
 .footer_text_logo {
     text-transform: uppercase;
-    font: 400 26px / 26px Helvetica;
-/*    width: 70%;*/
-/*    line-height: 67px;*/
+    font: 400 26px / 30px Helvetica;
     text-align: left;
     display: inline-block;
     background: salmon;
-    vertical-align: middle;
+    vertical-align: top;
     margin:0;
-/*    width:0;*/
-/*      padding: 0;*/
+    padding: 5px 0 5px 0;
 }
+
+.sn_cr_container{
+    box-sizing: border-box;
+    margin-top: 60px;
+    background: black;
+    display: inline-block;
+    padding-left: 20px;
+    text-align: left;
+}
+.footer_social_net span {
+    line-height: 22px;
+    height: 22px;
+    vertical-align: top;
+    color: #ffffff;
+}
+
+.copyright{
+font: 400 13px / 20px Helvetica;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: #ffffff;
 }
