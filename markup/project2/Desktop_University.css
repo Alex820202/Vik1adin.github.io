@@ -1,5 +1,19 @@
-body, div, h1,
-h2, h3, h4, h5, h6, p, span, a, ul, li, form, input, textarea {
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+ul,
+li,
+form,
+input,
+textarea {
     margin: 0;
     padding: 0;
     font-family: Helvetica, Arial, sans-serif;
@@ -20,7 +34,7 @@ h2, h3, h4, h5, h6, p, span, a, ul, li, form, input, textarea {
     box-sizing: border-box;
     color: white;
     margin: 0 auto;
-    padding: 0 10%;
+    padding: 0 12%;
 }
 
 .cirle_logo {
@@ -31,11 +45,8 @@ h2, h3, h4, h5, h6, p, span, a, ul, li, form, input, textarea {
     margin: 10px 10px 10px 0;
 }
 
-
-
 .text_logo p {
     margin-top: 18px;
-
 }
 
 .text_logo {
@@ -45,7 +56,8 @@ h2, h3, h4, h5, h6, p, span, a, ul, li, form, input, textarea {
     width: 350px;
 }
 
-.logo, .social_net {
+.logo,
+.social_net {
     display: inline-block;
 }
 
@@ -53,7 +65,7 @@ h2, h3, h4, h5, h6, p, span, a, ul, li, form, input, textarea {
     float: left;
 }
 
-.social_net{
+.social_net {
     float: right;
 }
 
@@ -67,9 +79,10 @@ h2, h3, h4, h5, h6, p, span, a, ul, li, form, input, textarea {
     vertical-align: top;
     color: #ffffff;
 }
-.social_net a{
-text-decoration: none;}
 
+.social_net a {
+    text-decoration: none;
+}
 
 .banner {
     max-width: 1920px;
@@ -78,7 +91,7 @@ text-decoration: none;}
     min-height: 351px;
     box-sizing: border-box;
     display: block;
-    margin-top: 0;
+    margin: 0 auto;
     text-align: center;
 }
 
@@ -88,9 +101,7 @@ text-decoration: none;}
     background: palegreen;
     color: #ffffff;
     display: inline-block;
-    padding-top: 80px;
-    padding-right: 10%;
-    padding-left: 10%;
+    padding: 80px 12% 0 12%;
 }
 
 .banner_container h2 {
@@ -100,10 +111,11 @@ text-decoration: none;}
 }
 
 .banner_container p {
-    text-align: justify;
+    text-align: left;
     font: 400 30px / 40px Helvetica;
     background: lightgreen;
     box-sizing: border-box;
+    width: 53%;
 }
 
 .about_us {
@@ -112,6 +124,7 @@ text-decoration: none;}
     min-height: 252px;
     background: #f2f2f2;
     text-align: center;
+    margin: 0 auto;
 }
 
 .about_us_container {
@@ -119,10 +132,8 @@ text-decoration: none;}
     box-sizing: border-box;
     background: lightcoral;
     display: inline-block;
-    padding-right: 10%;
-    padding-left: 10%;
+    padding: 40px 12% 0 12%;
     text-align: left;
-    padding-top: 40px;
 }
 
 .about_us_container h2 {
@@ -132,6 +143,7 @@ text-decoration: none;}
 .about_us_container p {
     font: 400 13px / 20px Helvetica;
     padding-top: 10px;
+    width: 53%;
 }
 
 .services {
@@ -147,7 +159,7 @@ text-decoration: none;}
     box-sizing: border-box;
     background: lightblue;
     display: inline-block;
-    padding:0 10%;
+    padding: 0 12%;
 }
 
 .services_container_title {
@@ -224,7 +236,7 @@ text-decoration: none;}
 }
 
 hr {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     color: #ECECEC;
     /*line color for IE6-7*/
@@ -232,29 +244,30 @@ hr {
     background-color: #ECECEC;
     border: none;
     height: 1px;
+    padding: 0 12%;
 }
 
 .testimonials {
     margin: 0 auto;
+    max-width: 1920px;
     width: 100%;
-    height: 100%;
+    /*    height: 100%;*/
+
     background: #ffffff;
     text-align: center;
 }
 
 .testimonials_container {
     background: aquamarine;
-    width: 80%;
+    width: 100%;
     box-sizing: border-box;
     text-align: left;
     display: inline-block;
-    padding-right: 30%;
+    padding: 0 30% 0 12%;
 }
 
 .testimonials_container_title {
     display: inline-block;
-    /*    width: 100%;*/
-
     color: #3498db;
     vertical-align: middle;
     text-align: left;
@@ -309,22 +322,25 @@ hr {
 }
 
 .footer {
+    max-width: 1920px;
     width: 100%;
     color: #ffffff;
 }
 
 .footer_top {
     width: 100%;
+    max-width: 1920px;
     background: #f2f2f2;
     text-align: center;
 }
 
 .footer_top_container {
     background: black;
-    width: 80%;
+    width: 100%;
     height: 191px;
     display: inline-block;
     text-align: left;
+    padding: 0 12%;
 }
 
 .footer_top_btn {
@@ -367,22 +383,46 @@ hr {
 */
 
 .footer_bottom {
+    max-width: 1920px;
     width: 100%;
     text-align: center;
 }
 
 .footer_bottom_container {
-    width: 80%;
+    width: 100%;
     height: 194px;
     display: inline-block;
     background: #3498db;
+    padding: 0 12%;
 }
 
-.footer_bottom_logo {
-    border-right: 1px solid 2a80bc;
-    width: 156px;
+.footer_logo {
+    border-right: 1px solid #2A80BC;
+    box-sizing: border-box;
+    background: black;
+    display: inline-block;
+    padding: 0;
+    text-align: left;
 }
 
-.footer_logo_circle {
-    float: left;
+.footer_cirle_logo {
+    width: 67px;
+    height: 67px;
+    display: inline-block;
+    background: yellow;
+    margin: 0;
+    }
+.footer_text_logo {
+    text-transform: uppercase;
+    font: 400 26px / 26px Helvetica;
+/*    width: 70%;*/
+/*    line-height: 67px;*/
+    text-align: left;
+    display: inline-block;
+    background: salmon;
+    vertical-align: middle;
+    margin:0;
+/*    width:0;*/
+/*      padding: 0;*/
+}
 }
