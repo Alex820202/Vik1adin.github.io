@@ -142,7 +142,7 @@ textarea {
     box-sizing: border-box;
     margin-bottom: 10px;
     padding-left: 15px;
-    width: 320px;
+    width: 90%;
     height: 36px;
     border: 1px solid #E5E5E5;
     background-color: #f2f2f2;
@@ -157,7 +157,7 @@ background-color: #f8f8f8 ;}
     box-sizing: border-box;
     margin-bottom: 10px;
     padding: 10px 15px;
-    width: 320px;
+    width: 90%;
     height: 76px;
     border: 1px solid #E5E5E5;
     background-color: #f2f2f2;
@@ -199,7 +199,7 @@ background-color: #f8f8f8 ;}
 .about_us_container {
     display: inline-block;
     box-sizing: border-box;
-    padding: 40px 12% 0 12%;
+    padding: 10px 12% 0 12%;
     width: 100%;
     background: lightcoral;
     text-align: left;
@@ -301,7 +301,6 @@ hr {
     width: 100%;
     text-align: center;
     padding: 0 12%;
-    margin: 0 auto;
     height: 1px;
     border: none;
     background-color: #ECECEC;
