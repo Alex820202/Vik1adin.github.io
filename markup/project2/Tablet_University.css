@@ -18,6 +18,7 @@ textarea {
     padding: 0;
     font-family: Helvetica, Arial, sans-serif;
 }
+
 .header {
     max-width: 999px;
     min-width: 800px;
@@ -25,6 +26,7 @@ textarea {
     height: 78px;
     margin: 0 auto;
 }
+
 .header_container {
     width: 100%;
     height: 78px;
@@ -35,6 +37,7 @@ textarea {
     margin: 0 auto;
     padding: 0 3%;
 }
+
 .cirle_logo {
     width: 53px;
     height: 53px;
@@ -42,75 +45,87 @@ textarea {
     float: left;
     margin: 10px 10px 10px 0;
 }
+
 .text_logo p {
     margin-top: 18px;
 }
+
 .text_logo {
     color: #ffffff;
     text-transform: uppercase;
     font: 400 26px / 42px Helvetica;
     width: 350px;
 }
+
 .logo,
 .social_net {
     display: inline-block;
 }
+
 .logo {
     float: left;
 }
+
 .social_net {
     float: right;
 }
+
 .social_net {
     margin-top: 25px;
 }
+
 .social_net span {
     line-height: 22px;
     height: 22px;
     vertical-align: top;
     color: #ffffff;
 }
+
 .social_net a,
 .footer_social_net a {
     text-decoration: none;
     opacity: 0.8;
 }
+
 .social_net a:hover,
 .footer_social_net a:hover {
     text-decoration: none;
     opacity: 1;
 }
+
 .banner {
     max-width: 999px;
     min-width: 800px;
     width: 100%;
-    background: url(images/heder_bottom_bg.png);
+    background: url(images/bannerbg.png);
     min-height: 351px;
     box-sizing: border-box;
     display: block;
     margin: 0 auto;
     text-align: center;
 }
+
 .banner_container {
     width: 100%;
     box-sizing: border-box;
-    background: palegreen;
     color: #ffffff;
     display: inline-block;
     padding: 80px 3% 0 3%;
 }
+
 .banner_container h2 {
     text-align: left;
     text-transform: uppercase;
     font: 700 50px / 42px Helvetica;
 }
+
 .banner_container p {
     text-align: left;
     font: 400 25px / 36px Helvetica;
-    background: lightgreen;
     box-sizing: border-box;
     width: 53%;
 }
+
 .banner_form {
     position: absolute;
     width: 340px;
@@ -121,6 +136,7 @@ textarea {
     right: 3%;
     background-color: #ffffff;
 }
+
 .banner_form h2 {
     color: #333333;
     font: 400 25px / 20px Helvetica;
@@ -128,15 +144,18 @@ textarea {
     text-align: center;
     line-height: 78px;
 }
+
 .banner_form form {
     margin: 0 20px;
     text-align: center;
     box-sizing: border-box;
 }
+
 .banner_form form input[name="select_course"] {
     background: url(images/arrowsouth.png) no-repeat center right 10px;
     background-color: #f2f2f2;
 }
+
 .banner_form form input {
     width: 100%;
     height: 36px;
@@ -148,6 +167,7 @@ textarea {
     font: 400 15px / 20px Helvetica;
     box-sizing: border-box;
 }
+
 .banner_form form textarea {
     width: 100%;
     height: 76px;
@@ -160,13 +180,16 @@ textarea {
     color: #333333;
     font: 400 15px / 20px Helvetica;
 }
+
 ::-webkit-resizer {
     display: none;
 }
+
 ::-webkit-input-placeholder {
     color: #333333;
     font: 400 15px / 20px Helvetica;
 }
+
 .banner_form form input[type="submit"] {
     background-color: #e74c3c;
     margin: 18px auto;
@@ -178,14 +201,18 @@ textarea {
     cursor: pointer;
     box-sizing: border-box;
 }
+
 .banner_form form input[type="submit"]:hover {
     background: #d62c1a;
 }
+
 .banner_form form input:hover,
 .banner_form form textarea:hover {
     /*  background-image: linear-gradient(#fcfcfc, #eee);*/
+
     background-color: #f8f8f8;
 }
+
 .about_us {
     max-width: 999px;
     min-width: 800px;
@@ -195,124 +222,66 @@ textarea {
     text-align: center;
     margin: 0 auto;
 }
+
 .about_us_container {
     width: 100%;
     box-sizing: border-box;
-    background: lightcoral;
     display: inline-block;
     padding: 10px 3% 0 3%;
     text-align: left;
 }
+
 .about_us_container h2 {
     font: 700 15px / 42px Helvetica;
 }
+
 .about_us_container p {
     font: 400 13px / 20px Helvetica;
     padding-top: 10px;
     width: 53%;
 }
-.services {
-    margin: 0 auto;
-    width: 100%;
-    max-width: 1920px;
-    min-width: 800px;
-    background: #ffffff;
-    text-align: left;
+
+.advantage_container {
+    width: 800px;
+    padding: 0 20px;
 }
-.services_container {
-    width: 100%;
+
+.advantage_container h2 {
+    font-size: 20px;
+}
+
+.advantage_container_item {
+    display: block;
+    width: 800px;
+    margin-bottom: 35px;
+    text-align: left;
     box-sizing: border-box;
-    background: lightblue;
-    display: inline-block;
-    padding: 0 3%;
 }
-.services_container_title {
-    display: inline-block;
-    width: 100%;
-    color: #3498db;
-    vertical-align: middle;
+
+.advantage_img {
+    float: left;
+    padding-right: 20px;
+}
+
+.advantage_container_item_title {
     text-align: left;
-    text-transform: uppercase;
-    font: 400 25px / 42px Helvetica;
+    line-height: 15px;
+    margin-bottom: 15px;
 }
-.services_container_inner {
-    background: red;
-    width: 100%;
-    text-align: left;
-    /*    text-align-last: justify;*/
-}
-.services_container_inner:after {
-    width: 100%;
-    height: 0px;
-    visibility: hidden;
-    overflow: hidden;
-    content: '';
-    display: inline-block;
-}
-.services_item {
-    position: relative;
-    display: inline-block;
-    overflow: hidden;
-    margin: 25px 0;
-    /*    max-width: 900px;*/
-    width: 100%;
-    background: blue;
-    text-align: left;
-}
-.helper {
-    width: 100%;
-    height: 0;
-    visibility: hidden;
-}
-.services_item_pic {
-    overflow: left;
-    display: inline-block;
-}
-.services_inner_item_text {
-    display: inline-block;
-    width: 60%;
-    vertical-align: top;
-    padding: 0 2% 0 2%;
-    background: green;
-    height: 100%;
-}
-.services_inner_item_text_title {
-    text-align: left;
-    text-transform: uppercase;
-    font: 700 15px / 42px Helvetica;
-}
-.services_inner_item_text_inf {
-    overflow: hidden;
-    font: 400 13px / 20px Helvetica;
+
+.advantage_container_item_text {
+    width: 430px;
     text-align: justify;
+    height: 90px;
 }
-.services_view_btn {
-    border: 1px solid #C0C0C0;
-    border-radius: 50%;
-    height: 52px;
-    width: 52px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    display: inline-block;
+
+.advantage_container_item_view {
+    margin-top: 0;
 }
-.services_view_btn a {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #333333;
-}
-.services_view_btn:hover {
-    background-color: #f8f8f8;
-}
+
 hr {
-    width: 100%;
-    margin: 0 auto;
-    color: #ECECEC;
-    /*line color for IE6-7*/
-    background-color: #ECECEC;
-    border: none;
-    height: 1px;
-    padding: 0 3%;
-    box-sizing: border-box;
+    max-width: 800px;
+    padding: 0 10px;
 }
 .testimonials {
     margin: 0 auto;
@@ -324,7 +293,6 @@ hr {
     height: 250px;
 }
 .testimonials_container {
-    background: aquamarine;
     width: 100%;
     box-sizing: border-box;
     text-align: left;
@@ -343,7 +311,6 @@ hr {
 .testimonials_client_name span {
     font: 400 60px / 60px Helvetica;
     color: #f2f2f2;
-    background: blue;
 }
 .testimonials_client_comment span {
     position: relative;
@@ -361,7 +328,6 @@ hr {
     overflow: hidden;
     font: 400 13px / 20px Helvetica;
     width: 70%;
-    background: yellow;
 }
 .testimonials_client_name {
     text-align: right;
@@ -415,9 +381,8 @@ hr {
     box-sizing: border-box;
 }
 .footer_top_container {
-    background: black;
     width: 100%;
-    height: 191px;
+    height: 191%;
     display: inline-block;
     text-align: left;
     padding: 0 3%;
@@ -440,7 +405,6 @@ hr {
 .footer_top_btn img {
     width: 32px;
     height: 32px;
-    background: green;
     position: relative;
     top: 9px;
 }
@@ -452,7 +416,7 @@ hr {
     width: 225px;
     height: 364px;
     background: url(images/boy.png);
-    top: 1670px;
+    top: 1531px;
     position: absolute;
     right: 8%;
     display: inline-block;
@@ -467,14 +431,13 @@ hr {
 .footer_bottom_container {
     width: 100%;
     height: 100%;
-    display: inline-block;
+/*    display: inline-block;*/
     background: #3498db;
     padding: 0 3%;
 }
 .footer_logo {
-    border-right: 1px solid #2A80BC;
+    border-right: 2px solid #2A80BC;
     box-sizing: border-box;
-    background: black;
     display: inline-block;
     padding-right: 20px;
     text-align: left;
@@ -485,27 +448,24 @@ hr {
     width: 67px;
     height: 67px;
     display: inline-block;
-    background: yellow;
     margin: 0;
-    padding: 5px;
 }
 .footer_text_logo {
     text-transform: uppercase;
-    font: 400 23px / 30px Helvetica;
+    font:400 26px / 28px Helvetica;
     text-align: left;
     display: inline-block;
-    background: salmon;
     vertical-align: top;
     margin: 0;
-    padding: 9px 0;
+    padding: 5px 0;
 }
 .sn_cr_container {
     box-sizing: border-box;
-    margin-top: 55px;
-    background: black;
+    margin-top: 56px;
     display: inline-block;
     padding-left: 20px;
     text-align: left;
+    width: 471px;
 }
 .footer_social_net span {
     line-height: 22px;
@@ -514,9 +474,8 @@ hr {
     color: #ffffff;
 }
 .copyright {
-    font: 400 13px / 20px Helvetica;
-    width: 75%;
-    background: pink;
+    font:400 13px / 18px Helvetica;
+    width: 100%;
 }
 .copyright a {
     text-decoration: none;

@@ -102,7 +102,7 @@ textarea {
     min-height: 351px;
     max-width: 1920px;
     width: 100%;
-    background: url(images/heder_bottom_bg.png);
+    background: url(images/bannerbg.png);
     text-align: center;
 }
 
@@ -281,13 +281,13 @@ textarea {
 }
 
 .advantage_container_item_text {
-    text-align: center;
-    overflow-y: hidden;
+    text-align: inherit;
+    overflow: hidden;
     height: 120px;
 }
 
-.advantage_container_item p {
-    text-align: center;
+.advantage_container_item_text {
+    text-align: justify;
     color: #333333;
     font: 400 13px / 20px Helvetica;
 }
@@ -528,15 +528,15 @@ hr {
     float: left;
     box-sizing: border-box;
     margin-top: 50px;
-    padding-right: 20px;
-    border-right: 1px solid #2A80BC;
+    padding-top: 0;
+    border-right: 2px solid #2A80BC;
     text-align: left;
+    height: 70px;
 }
 
 .footer_circle_logo {
     display: inline-block;
     margin: 0;
-    padding: 5px;
     width: 67px;
     height: 67px;
 }
