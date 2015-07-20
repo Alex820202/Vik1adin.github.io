@@ -32,14 +32,19 @@ textarea {
     width: 100%;
     height: 100%;
     background-color: #3498db;
-    /*    border: 1px solid #3498db;*/
-
+    display: block;
     box-sizing: border-box;
     color: white;
     margin: 0 auto;
-    /*    padding: 0 3%;*/
-
     text-align: center;
+}
+
+.cirle_logo,
+.text_logo,
+.logo,
+.social_net {
+    float: none;
+    margin: 0 auto;
 }
 
 .logo {
@@ -47,43 +52,36 @@ textarea {
     box-sizing: border-box;
     padding-top: 20px;
     background: blue;
-    border-bottom: 1px solid #2A80BC;
+    border-bottom: 2px solid #2A80BC;
     margin: 0 auto;
     width: 50%;
+    min-width: 176px;
 }
 
 .cirle_logo {
-    /*    width: 53px;*/
-
+    width: 53px;
     height: 53px;
-    /*    text-align: center;*/
+    text-align: center;
+    float: none;
+    margin: 0 auto;
 }
-/*
-.text_logo p {
-    margin-top: 5px;
-}
-*/
 
 .text_logo {
     color: #ffffff;
     text-transform: uppercase;
-    font: 400 20px / 42px Helvetica;
-    /*    width: 350px;*/
+    font: 400 20px / 20px Helvetica;
+    text-align: center;
+    width: 100%;
 }
-/*
+
+.text_logo p {
+    margin-top: 5px;
+}
+
 .logo,
 .social_net {
-    display: inline-block;
+    display: block;
 }
-*/
-/*
-.logo {
-    float: left;
-}
-.social_net {
-    float: right;
-}
-*/
 
 .social_net {
     margin-top: 10px;
@@ -112,7 +110,7 @@ textarea {
     max-width: 799px;
     min-width: 320px;
     width: 100%;
-    background: url(images/heder_bottom_bg.png);
+    background: url(images/bannerbg.png);
     height: 351px;
     box-sizing: border-box;
     display: block;
@@ -123,7 +121,6 @@ textarea {
 .banner_container {
     width: 100%;
     box-sizing: border-box;
-    background: palegreen;
     color: #ffffff;
     display: inline-block;
     padding: 30px 0;
@@ -141,8 +138,8 @@ textarea {
     font: 400 16px / 28px Helvetica;
     background: blue;
     box-sizing: border-box;
-    width: 65%;
-    margin: 0 auto;
+    width: 75%;
+    margin: 1% auto;
 }
 
 .banner_form {
@@ -155,7 +152,7 @@ textarea {
     left: 50%;
     margin: -150px 0 0 -150px;
     background-color: #ffffff;
-    z-index:100;
+    z-index: 100;
 }
 
 .banner_form h2 {
@@ -218,7 +215,7 @@ textarea {
     width: 200px;
     height: 50px;
     color: #ffffff;
-    font:400 20px / 28px Helvetica;
+    font: 400 20px / 28px Helvetica;
     cursor: pointer;
     box-sizing: border-box;
 }
@@ -246,136 +243,51 @@ textarea {
 
 .about_us_container {
     width: 100%;
+    height: 682px;
     box-sizing: border-box;
     background: lightcoral;
     display: inline-block;
-    padding: 380px 3% 50px 3%;
+    padding: 380px 0;
     text-align: center;
 }
 
 .about_us_container h2 {
-    font:700 15px / 42px Helvetica;
+    font: 700 15px / 42px Helvetica;
 }
 
 .about_us_container p {
-    font:400 13px / 20px Helvetica;
-    padding: 0 10px;
-    width: 70%;
+    font: 400 13px / 20px Helvetica;
+    padding: 10px;
+    width: 90%;
     text-align: center;
     background: white;
     box-sizing: border-box;
     display: inline-block;
 }
-.about_us_container p:last-child{
-     padding:10px;
+
+.advantage {
+    width: 320px;
+    background: white;
 }
 
-.services {
-    margin: 0 auto;
+.advantage_inner {
     width: 100%;
-    max-width: 799px;
     min-width: 320px;
-    background: #ffffff;
+    padding: 0 10px;
     text-align: center;
 }
 
-.services_container {
-    width: 100%;
-    box-sizing: border-box;
-    background: lightblue;
-    display: inline-block;
-    padding: 0 3%;
-}
-
-.services_container_title {
-    display: inline-block;
-    width: 100%;
-    color: #3498db;
-    vertical-align: middle;
-    text-align: center;
-    text-transform: uppercase;
-    font:400 20px / 42px Helvetica;
-}
-
-.services_container_inner {
-    background: red;
-    width: 100%;
+.advantage_inner h2 {
+    font-size: 20px;
     text-align: center;
 }
 
-.services_container_inner:after {
-    width: 100%;
-    height: 0px;
-    visibility: hidden;
-    overflow: hidden;
-    content: '';
-    display: inline-block;
+.advantage_inner_item_view {
+    margin: 25px auto;
 }
 
-.services_item {
-    position: relative;
-    display: inline-block;
-    overflow: hidden;
-/*    margin: 25px 0;*/
-    width: 100%;
-    background: blue;
-    text-align: center;
-}
-
-.helper {
-    width: 100%;
-    height: 0;
-    visibility: hidden;
-}
-
-.services_item_pic {
-   /*overflow: left;*/
-/*    display: inline-block;*/
-}
-
-.services_inner_item_text {
-    display: inline-block;
-    width: 69%;
-    vertical-align: top;
-/*    padding: 0 2% 0 2%;*/
-    background: green;
-    text-align: center;
-}
-
-.services_inner_item_text_title {
-    text-align: center;
-    text-transform: uppercase;
-    font:700 15px / 42px Helvetica;
-    margin: 15px auto;
-}
-
-.services_inner_item_text_inf {
-    overflow: hidden;
-    font: 400 13px / 20px Helvetica;
-    text-align: center;
-}
-
-.services_view_btn {
-    border: 1px solid #C0C0C0;
-    border-radius: 50%;
-    height: 52px;
-    width: 52px;
-    margin-top: 10px ;
-    margin-bottom: 10px;
-    margin-left: 45%;
-    display: block;
-    text-align: center;
-
-}
-
-.services_view_btn a {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #333333;
-}
-
-.services_view_btn:hover {
-    background-color: #f8f8f8;
+hr {
+    max-width: 300px;
 }
 
 hr {
@@ -400,7 +312,7 @@ hr {
     width: 100%;
     background: #ffffff;
     text-align: center;
-/*    height: 250px;*/
+    /*    height: 250px;*/
 }
 
 .testimonials_container {
@@ -413,11 +325,12 @@ hr {
 
 .testimonials_container_title {
     color: #3498db;
-/*    vertical-align: middle;*/
-    text-align:center;
+    /*    vertical-align: middle;*/
+
+    text-align: center;
     text-transform: uppercase;
-    font:400 20px / 30px Helvetica;
-    width:70%;
+    font: 400 20px / 30px Helvetica;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -445,8 +358,9 @@ hr {
 
 .testimonials_client_comment {
     overflow: hidden;
-    font:400 13px / 20px Helvetica;
-/*    width: 70%;*/
+    font: 400 13px / 20px Helvetica;
+    /*    width: 70%;*/
+
     background: yellow;
     text-align: justify;
     padding: 10px;
@@ -454,7 +368,7 @@ hr {
 
 .testimonials_client_name {
     text-align: right;
-    font:700 13px / 42px Helvetica;
+    font: 700 13px / 42px Helvetica;
 }
 
 .testimonials_pager {
@@ -531,7 +445,7 @@ hr {
 }
 
 .footer_top_btn a {
-    font:400 20px / 32px Helvetica;
+    font: 400 20px / 32px Helvetica;
     text-transform: uppercase;
     text-decoration: none;
     color: #ffffff;
@@ -541,9 +455,10 @@ hr {
     width: 32px;
     height: 32px;
     background: green;
-/*    position: relative;*/
+    /*    position: relative;*/
+
     top: 9px;
-    display:block;
+    display: block;
 }
 
 .footer_top_btn:hover {
