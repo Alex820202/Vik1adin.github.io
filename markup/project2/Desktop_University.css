@@ -18,6 +18,7 @@ textarea {
     padding: 0;
     font-family: Helvetica, Arial, sans-serif;
 }
+
 .header {
     display: block;
     margin: 0 auto;
@@ -26,6 +27,7 @@ textarea {
     width: 100%;
     height: 78px;
 }
+
 .header_container {
     box-sizing: border-box;
     margin: 0 auto;
@@ -36,6 +38,7 @@ textarea {
     background-color: #3498db;
     color: white;
 }
+
 .cirle_logo {
     float: left;
     margin: 10px 10px 10px 0;
@@ -43,45 +46,54 @@ textarea {
     height: 53px;
     text-align: center;
 }
-.text_logo p {
-     margin-top: 18px;
-}
-.text_logo {
 
+.text_logo p {
+    margin-top: 18px;
+}
+
+.text_logo {
     width: 350px;
     color: #ffffff;
     text-transform: uppercase;
     font: 400 26px / 42px Helvetica;
 }
+
 .logo,
 .social_net {
     display: inline-block;
 }
+
 .logo {
     float: left;
 }
+
 .social_net {
     float: right;
 }
+
 .social_net {
     margin-top: 25px;
 }
+
 .social_net span {
     height: 22px;
     color: #ffffff;
     vertical-align: top;
     line-height: 22px;
 }
+
 .social_net a,
 .footer_social_net a {
     text-decoration: none;
     opacity: 0.8;
 }
+
 .social_net a:hover,
 .footer_social_net a:hover {
     text-decoration: none;
     opacity: 1;
 }
+
 .banner {
     display: block;
     box-sizing: border-box;
@@ -93,26 +105,28 @@ textarea {
     background: url(images/heder_bottom_bg.png);
     text-align: center;
 }
+
 .banner_container {
     display: inline-block;
     box-sizing: border-box;
     padding: 80px 12% 0 12%;
     width: 100%;
-    background: palegreen;
     color: #ffffff;
 }
+
 .banner_container h2 {
     text-align: left;
     text-transform: uppercase;
     font: 700 50px / 42px Helvetica;
 }
+
 .banner_container p {
     box-sizing: border-box;
     width: 53%;
-    background: lightgreen;
     text-align: left;
     font: 400 30px / 40px Helvetica;
 }
+
 .banner_form {
     position: absolute;
     top: 110px;
@@ -123,6 +137,7 @@ textarea {
     border-bottom: 5px solid #3497D9;
     background-color: #ffffff;
 }
+
 .banner_form h2 {
     color: #333333;
     text-align: center;
@@ -130,15 +145,18 @@ textarea {
     font: 400 25px / 20px Helvetica;
     line-height: 78px;
 }
+
 - .banner_form form {
     box-sizing: border-box;
     margin: 0 20px;
     text-align: center;
 }
+
 .banner_form form input[name="select_course"] {
-    background:url(images/arrowsouth.png) no-repeat center right 10px;
+    background: url(images/arrowsouth.png) no-repeat center right 10px;
     background-color: #f2f2f2;
-   }
+}
+
 .banner_form form input {
     box-sizing: border-box;
     margin-bottom: 10px;
@@ -150,9 +168,12 @@ textarea {
     color: #333333;
     font: 400 15px / 20px Helvetica;
 }
-.banner_form form input:hover, .banner_form form textarea:hover  {
-/*  background-image: linear-gradient(#fcfcfc, #eee);*/
-background-color: #f8f8f8;
+
+.banner_form form input:hover,
+.banner_form form textarea:hover {
+    /*  background-image: linear-gradient(#fcfcfc, #eee);*/
+
+    background-color: #f8f8f8;
 }
 
 .banner_form form textarea {
@@ -167,13 +188,16 @@ background-color: #f8f8f8;
     font: 400 15px / 20px Helvetica;
     resize: none;
 }
+
 ::-webkit-resizer {
     display: none;
 }
+
 ::-webkit-input-placeholder {
     color: #333333;
     font: 400 15px / 20px Helvetica;
 }
+
 .banner_form form input[type="submit"] {
     box-sizing: border-box;
     margin: 18px auto;
@@ -185,9 +209,11 @@ background-color: #f8f8f8;
     font: 400 25px / 28px Helvetica;
     cursor: pointer;
 }
+
 .banner_form form input[type="submit"]:hover {
     background: #d62c1a;
 }
+
 .about_us {
     display: block;
     margin: 0 auto;
@@ -198,28 +224,30 @@ background-color: #f8f8f8;
     background: #f2f2f2;
     text-align: center;
 }
+
 .about_us_container {
     display: inline-block;
     box-sizing: border-box;
     padding: 10px 12% 0 12%;
     width: 100%;
-    background: lightcoral;
     text-align: left;
 }
+
 .about_us_container h2 {
     font: 700 15px / 42px Helvetica;
 }
+
 .about_us_container p {
     padding-top: 10px;
     width: 53%;
     font: 400 13px / 20px Helvetica;
 }
+
 .advantage {
     max-width: 1920px;
     width: 100%;
     margin: 0 auto;
-    background:#ffffff;
-
+    background: #ffffff;
 }
 
 .advantage_container {
@@ -243,7 +271,6 @@ background-color: #f8f8f8;
     text-align: center;
     vertical-align: top;
     width: 290px;
-
 }
 
 .advantage_container_item_title {
@@ -263,7 +290,6 @@ background-color: #f8f8f8;
     text-align: center;
     color: #333333;
     font: 400 13px / 20px Helvetica;
-
 }
 
 .advantage_container_item_view {
@@ -279,7 +305,6 @@ background-color: #f8f8f8;
     margin-bottom: 15px;
     margin-top: 30px;
     display: inline-block;
-
 }
 
 .advantage_container_item_view a {
@@ -290,7 +315,6 @@ background-color: #f8f8f8;
 }
 
 .advantage_container_item_view:hover {
-
     background: #f7f7f7;
 }
 
@@ -298,12 +322,9 @@ background-color: #f8f8f8;
     display: inline-block;
     width: 100%;
     content: '';
-
 }
 
-
 hr {
-
     display: block;
     margin: 0 auto;
     min-width: 1000px;
@@ -316,6 +337,7 @@ hr {
     background-color: #ECECEC;
     color: #ECECEC;
 }
+
 .testimonials {
     display: block;
     margin: 0 auto;
@@ -325,13 +347,14 @@ hr {
     background: #ffffff;
     text-align: center;
 }
+
 .testimonials_container {
     display: inline-block;
     box-sizing: border-box;
     padding: 2% 12% 0 12%;
     width: 100%;
-    background: aquamarine;
 }
+
 .testimonials_container_title {
     display: inline-block;
     color: #3498db;
@@ -339,65 +362,62 @@ hr {
     text-align: left;
     text-transform: uppercase;
     font: 400 25px / 42px Helvetica;
+    float: left;
 }
+
 .testimonials_client_comment span,
 .testimonials_client_name span {
     background: blue;
     color: #f2f2f2;
     font: 400 60px / 60px Helvetica;
 }
+
 .testimonials_client_comment {
     overflow: hidden;
     width: 70%;
-    background: yellow;
     text-align: left;
     font: 400 13px / 20px Helvetica;
     box-sizing: border-box;
 }
+
 .testimonials_client_comment span {
     position: relative;
     color: #f2f2f2;
     font-size: 60px;
 }
-.testimonials_client_comment:before{
-  content: " ";
-  background: url('images/quote.svg') no-repeat top left;
-  background-size: 19px;
-  width: 100%;
-  height: 30px;
-  display: block;
-}
-.testimonials_client_comment:after{
-  content: " ";
-  background: url('images/quote.svg') no-repeat top left;
-  transform: rotate(180deg);
-  background-size: 19px;
-  width: 100%;
-  height: 30px;
-  display: block;
 
+.testimonials_client_comment:before {
+    content: " ";
+    background: url('images/quote.svg') no-repeat top left;
+    background-size: 19px;
+    width: 100%;
+    height: 30px;
+    display: block;
 }
-/*
-.testimonials_client_comment span:first-child {
-    top: 20px;
+
+.testimonials_client_comment:after {
+    content: " ";
+    background: url('images/quote.svg') no-repeat top left;
+    transform: rotate(180deg);
+    background-size: 19px;
+    width: 100%;
+    height: 30px;
+    display: block;
 }
-.testimonials_client_comment span:last-child {
-    right: -97%;
-    bottom: 25px;
-}
-*/
+
 .testimonials_client_name {
     text-align: right;
     font: 700 13px / 42px Helvetica;
 }
+
 .testimonials_pager {
     top: 0;
     right: 0;
     display: inline-block;
     float: right;
     padding: 2px;
-    background: black;
 }
+
 .testimonials_pager_item {
     width: 40px;
     height: 40px;
@@ -406,21 +426,26 @@ hr {
     text-decoration: none;
     opacity: 0.8;
 }
+
 .testimonials_pager_item.left {
     background: url(images/arrow_left.png) center center no-repeat;
-      background-size:cover;
+    background-size: cover;
 }
+
 .testimonials_pager_item.right {
-    background: url(images/eastarrow.svg) center center no-repeat;
-    background-size:cover;
+    background: url(images/arrow_right.png) center center no-repeat;
+    background-size: cover;
 }
+
 .testimonials_pager_item a {
     text-decoration: none;
     text-transform: uppercase;
 }
+
 .testimonials_pager_item:hover {
     opacity: 1;
 }
+
 .footer {
     margin: 0 auto;
     min-width: 1000px;
@@ -428,6 +453,7 @@ hr {
     width: 100%;
     color: #ffffff;
 }
+
 .footer_top {
     margin: 0 auto;
     min-width: 1000px;
@@ -435,13 +461,14 @@ hr {
     width: 100%;
     background: #f2f2f2;
 }
+
 .footer_top_container {
     padding: 0 12%;
     width: 100%;
     height: 191px;
-    background: black;
     text-align: left;
 }
+
 .footer_top_btn {
     display: inline-block;
     margin-top: 65px;
@@ -451,39 +478,43 @@ hr {
     border: none;
     background: #e74c3c;
 }
+
 .footer_top_btn a {
     color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
     font: 400 25px / 42px Helvetica;
 }
+
 .footer_top_btn img {
     position: relative;
     top: 7px;
     width: 32px;
     height: 32px;
-    background: green;
 }
+
 .footer_top_btn:hover {
     background: #d62c1a;
 }
+
 .guy_img {
     position: absolute;
     display: inline-block;
     margin: 0 auto;
-    top: 1428px;
-    right: 15%;
+    top: 1267px;
+    right: 18%;
     width: 225px;
     height: 364px;
     background: url(images/boy.png);
-/*    bottom:100px;*/
 }
+
 .footer_bottom {
     margin: 0 auto;
     min-width: 1000px;
     max-width: 1920px;
     width: 100%;
 }
+
 .footer_bottom_container {
     display: inline-block;
     padding: 0 12%;
@@ -491,6 +522,7 @@ hr {
     height: 194px;
     background: #3498db;
 }
+
 .footer_logo {
     display: inline-block;
     float: left;
@@ -498,44 +530,46 @@ hr {
     margin-top: 50px;
     padding-right: 20px;
     border-right: 1px solid #2A80BC;
-    background: black;
     text-align: left;
 }
+
 .footer_circle_logo {
     display: inline-block;
     margin: 0;
     padding: 5px;
     width: 67px;
     height: 67px;
-    background: yellow;
 }
+
 .footer_text_logo {
     display: inline-block;
     margin: 0;
     padding: 9px 0;
-    background: salmon;
     vertical-align: top;
     text-align: left;
     text-transform: uppercase;
     font: 400 23px / 30px Helvetica;
 }
+
 .sn_cr_container {
     display: inline-block;
     box-sizing: border-box;
     margin-top: 70px;
     padding-left: 20px;
-    background: black;
     text-align: left;
 }
+
 .footer_social_net span {
     height: 22px;
     color: #ffffff;
     vertical-align: top;
     line-height: 22px;
 }
+
 .copyright {
     font: 400 13px / 20px Helvetica;
 }
+
 .copyright a {
     color: #ffffff;
     text-decoration: none;
