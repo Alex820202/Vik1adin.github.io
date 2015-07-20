@@ -541,7 +541,7 @@ hr {
     width: 32px;
     height: 32px;
     background: green;
-    position: relative;
+/*    position: relative;*/
     top: 9px;
     display:block;
 }
