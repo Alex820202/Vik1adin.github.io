@@ -140,6 +140,7 @@ textarea {
     box-sizing: border-box;
     width: 75%;
     min-width: 240px;
+    height: 72px;
     margin: 1% auto;
 }
 
@@ -249,7 +250,7 @@ textarea {
     box-sizing: border-box;
     background: lightcoral;
     display: inline-block;
-    padding: 380px 0;
+    padding: 400px 0;
     text-align: center;
 }
 
@@ -310,21 +311,12 @@ height: 113px;
 .advantage_container_item_view {
     margin: 25px auto;
 }
-/*
-
-hr {
-    max-width: 300px;
-}
-*/
-
 hr {
     max-width: 799px;
     min-width: 320px;
     width: 100%;
     margin: 0 auto;
     color: #ECECEC;
-    /*line color for IE6-7*/
-
     background-color: #ECECEC;
     border: none;
     height: 1px;
@@ -369,8 +361,8 @@ hr {
 .testimonials_client_comment {
     overflow: hidden;
     font: 400 13px / 20px Helvetica;
-    /*    width: 70%;*/
-
+    min-width:257px;
+    width:100%;
     background: yellow;
     text-align: justify;
     padding: 10px;
@@ -382,8 +374,8 @@ hr {
 }
 
 .testimonials_pager {
-    right: 0;
-    top: 0;
+    float:none;
+   margin: 0 auto;
     display: block;
     background: black;
     padding: 2px;
@@ -396,6 +388,7 @@ hr {
     height: 40px;
     width: 40px;
     opacity: 0.8;
+
 }
 
 .testimonials_pager_item.left {
