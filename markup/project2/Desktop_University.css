@@ -186,7 +186,7 @@ textarea {
 
 .banner_form form input:hover,
 .banner_form form textarea:hover {
-    /*  background-image: linear-gradient(#fcfcfc, #eee);*/
+/*      background-color: linear-gradient(#fcfcfc, #eee);*/
 
     background-color: #f8f8f8;
 }
