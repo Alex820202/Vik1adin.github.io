@@ -266,7 +266,7 @@ textarea {
     text-align: center;
     background: white;
     box-sizing: border-box;
-      margin: 0 auto;
+    margin: 0 auto;
 }
 
 .advantage {
@@ -375,21 +375,22 @@ hr {
 }
 
 .testimonials_client_comment:before {
-  content: " ";
-  background: url('images/quote.png') no-repeat left;
-  background-size: 19px;
-  width: 100%;
-  height: 30px;
-  display: block;
+    content: " ";
+    background: url('images/quote.png') no-repeat left;
+    background-size: 19px;
+    width: 100%;
+    height: 30px;
+    display: block;
 }
+
 .testimonials_client_comment:after {
-  content: " ";
-  background: url('images/quote.png') no-repeat left;
-  transform: rotate(180deg);
-  background-size: 19px;
-  width: 100%;
-  height: 30px;
-  display: block;
+    content: " ";
+    background: url('images/quote.png') no-repeat left;
+    transform: rotate(180deg);
+    background-size: 19px;
+    width: 100%;
+    height: 30px;
+    display: block;
 }
 
 .testimonials_client_name {
@@ -434,7 +435,6 @@ hr {
     height: 40px;
     width: 40px;
     opacity: 0.8;
-
 }
 
 .testimonials_pager_item.left {
@@ -464,7 +464,7 @@ hr {
 
 .footer_top {
     width: 100%;
-    height: 191px;
+/*    height: 191px;*/
     max-width: 799px;
     min-width: 320px;
     background: #f2f2f2;
@@ -475,39 +475,39 @@ hr {
 .footer_top_container {
     background: black;
     width: 100%;
-    height: 241px;
+/*    height: 241px;*/
     display: inline-block;
     text-align: center;
     padding: 0;
 }
 
 .footer_top_btn {
-  font-size: 20px;
-  line-height: 30px;
-  z-index: 3;
-  width: 290px;
-  height: 68px;
-  margin: 45px auto 0;
-  padding: 14px 20px 116px;
+    font-size: 20px;
+    line-height: 30px;
+    z-index: 3;
+    width: 290px;
+    height: 68px;
+    margin: 45px auto 0;
+    padding: 14px 20px 116px;
 }
 
 .footer_top_btn a {
-    font:400 20px / 32px Helvetica;
+    font: 400 20px / 32px Helvetica;
     text-transform: uppercase;
     text-decoration: none;
     color: #ffffff;
 }
 
-.footer_top_btn:after{
-position: absolute;
-  right: 0;
-  bottom: 13px;
-  left: 0;
-  width: 32px;
-  height: 32px;
-  margin: 0 auto;
-  content: '';
-  background: url(images/btn_arrow_right.png) no-repeat 0 0;
+.footer_top_btn:after {
+    position: absolute;
+    right: 0;
+    bottom: 13px;
+    left: 0;
+    width: 32px;
+    height: 32px;
+    margin: 0 auto;
+    content: '';
+    background: url(images/btn_arrow_right.png) no-repeat 0 0;
 }
 
 .footer_top_btn:hover {
@@ -530,7 +530,7 @@ position: absolute;
     max-width: 799px;
     min-width: 320px;
     width: 100%;
-    height: 195px;
+/*    height: 195px;*/
     text-align: center;
 }
 
@@ -543,47 +543,48 @@ position: absolute;
     text-align: center;
 }
 
-.footer_logo  {
-  float: none;
-  width: 190px;
-  margin: 0 auto;
-  text-align: center;
-  border-right: none;
-  border-bottom: 2px solid #2980b9;
+.footer_logo {
+    float: none;
+    width: 190px;
+    margin: 0 auto;
+    text-align: center;
+    border-right: none;
+    border-bottom: 2px solid #2980b9;
     height: 110px;
     background: pink;
+    box-sizing: border-box;
 }
 
 .footer_circle_logo {
-/*
-  font-size: 20px;
-  line-height: 47px;
-*/
-  float: none;
-  max-width: 52px;
-  max-height: 52px;
-/*  margin: 0 0 -15px  0 ;*/
-/*  padding: 2px 5px;*/
-        text-align: center;
+    float: none;
+    width: 57px;
+    height: 57px;
+    text-align: center;
     padding: 0;
+    margin-top: 25px;
+}
+
+.footer_circle_logo img {
+    width: 100%;
+    height: 100%;
 }
 
 .footer_text_logo {
-  font-size: 20px;
-  line-height: 28px;
-  float: none;
-  width: 180px;
-  margin: 0 auto;
-  padding: 5px 0;
+    font-size: 20px;
+    line-height: 28px;
+    float: none;
+    width: 180px;
+    margin: 0 auto;
+    padding: 5px 0;
     text-align: center;
 }
-
 
 .sn_cr_container {
     box-sizing: border-box;
     margin-top: 55px;
     background: black;
-/*    display: block;*/
+    /*    display: block;*/
+
     text-align: center;
     width: 240px;
     padding: 0;
@@ -599,8 +600,7 @@ position: absolute;
 }
 
 .copyright {
-    font:400 13px / 18px Helvetica;
-
+    font: 400 13px / 18px Helvetica;
     background: pink;
 }
 
