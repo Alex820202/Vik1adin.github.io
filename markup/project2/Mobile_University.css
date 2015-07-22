@@ -72,6 +72,7 @@ textarea {
     font: 400 20px / 20px Helvetica;
     text-align: center;
     width: 100%;
+    padding: 5px;
 }
 
 .text_logo p {
@@ -477,7 +478,7 @@ hr {
     height: 241px;
     display: inline-block;
     text-align: center;
-    padding: 0 3%;
+    padding: 0;
 }
 
 .footer_top_btn {
@@ -526,10 +527,11 @@ position: absolute;
 
 .footer_bottom {
     margin: 0 auto;
-    max-width: 999px;
-    min-width: 800px;
+    max-width: 799px;
+    min-width: 320px;
     width: 100%;
     height: 195px;
+    text-align: center;
 }
 
 .footer_bottom_container {
@@ -537,46 +539,56 @@ position: absolute;
     height: 100%;
     display: inline-block;
     background: #3498db;
-    padding: 0 3%;
+    padding: 0;
+    text-align: center;
 }
 
 .footer_logo  {
-    display: block;
-    box-sizing: border-box;
-    padding-top: 20px;
-    background: blue;
-    border-bottom: 2px solid #2A80BC;
-    margin: 0 auto;
-    width: 50%;
-    min-width: 176px;
+  float: none;
+  width: 190px;
+  margin: 0 auto;
+  text-align: center;
+  border-right: none;
+  border-bottom: 2px solid #2980b9;
+    height: 110px;
+    background: pink;
 }
 
 .footer_circle_logo {
-    width: 53px;
-    height: 53px;
-    text-align: center;
-    float: none;
-    margin: 0 auto;
+/*
+  font-size: 20px;
+  line-height: 47px;
+*/
+  float: none;
+  max-width: 52px;
+  max-height: 52px;
+/*  margin: 0 0 -15px  0 ;*/
+/*  padding: 2px 5px;*/
+        text-align: center;
+    padding: 0;
 }
 
 .footer_text_logo {
-    text-transform: uppercase;
-    font: 400 23px / 30px Helvetica;
-    text-align: left;
-    display: inline-block;
-    background: salmon;
-    vertical-align: top;
-    margin: 0;
-    padding: 9px 0;
+  font-size: 20px;
+  line-height: 28px;
+  float: none;
+  width: 180px;
+  margin: 0 auto;
+  padding: 5px 0;
+    text-align: center;
 }
+
 
 .sn_cr_container {
     box-sizing: border-box;
     margin-top: 55px;
     background: black;
-    display: inline-block;
-    padding-left: 20px;
-    text-align: left;
+/*    display: block;*/
+    text-align: center;
+    width: 240px;
+    padding: 0;
+    text-align: center;
+    margin-top: 0;
 }
 
 .footer_social_net span {
@@ -587,8 +599,8 @@ position: absolute;
 }
 
 .copyright {
-    font: 400 13px / 20px Helvetica;
-    width: 75%;
+    font:400 13px / 18px Helvetica;
+
     background: pink;
 }
 
