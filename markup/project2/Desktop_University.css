@@ -484,13 +484,17 @@ hr {
 }
 
 .footer_top_btn {
-    display: inline-block;
-    margin-top: 65px;
-    margin-bottom: 65px;
-    max-width: 540px;
-    height: 60px;
-    border: none;
-    background: #e74c3c;
+  font-size: 25px;
+  position: relative;
+  width: 540px;
+  height: 58px;
+  margin: 70px auto 0;
+  padding-right: 50px;
+  text-transform: uppercase;
+/*  color: #fff;*/
+  border: none;
+  outline: none;
+  background: #e74c3c;
 }
 
 .footer_top_btn a {
@@ -500,13 +504,15 @@ hr {
     font: 400 25px / 42px Helvetica;
 }
 
-.footer_top_btn img {
-    position: relative;
-    top: 7px;
-    width: 32px;
-    height: 32px;
+.footer_top_btn:after {
+  position: absolute;
+  right: 22px;
+  bottom: 14px;
+  width: 32px;
+  height: 32px;
+  content: '';
+  background: url(images/btn_arrow_right.png) no-repeat 0 0;
 }
-
 .footer_top_btn:hover {
     background: #d62c1a;
 }
