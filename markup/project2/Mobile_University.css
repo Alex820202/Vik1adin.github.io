@@ -139,6 +139,7 @@ textarea {
     background: blue;
     box-sizing: border-box;
     width: 75%;
+    min-width: 240px;
     margin: 1% auto;
 }
 
@@ -278,15 +279,32 @@ textarea {
     padding: 0 3%;
     text-align: center;
 }
+
+.advantage_container h2 {
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+}
 .advantage_container_item{
-text-align: center;}
+text-align: center;
+    width:290px;
+  margin: 0 auto;}
 
 .advantage_img{
 float: none;}
 
-.advantage_container h2 {
-    font-size: 20px;
+.advantage_container_item_title
+{font: 700 15px / 42px Helvetica;
     text-align: center;
+    background: yellow;
+    margin-bottom: 0;
+}
+.advantage_container_item_text{
+width: 290px;
+text-align: justify;
+background:pink;
+height: 113px;
+    font: 400 13px / 20px Helvetica;
 }
 
 .advantage_container_item_view {
@@ -340,30 +358,13 @@ hr {
     text-transform: uppercase;
     font: 400 20px / 30px Helvetica;
     width: 70%;
+    min-width: 245px;
     margin: 0 auto;
+    display:block;
+    float:none;
 }
 
-.testimonials_client_comment span,
-.testimonials_client_name span {
-    font: 400 60px / 60px Helvetica;
-    color: #f2f2f2;
-    background: blue;
-}
 
-.testimonials_client_comment span {
-    position: relative;
-    color: #f2f2f2;
-    font-size: 60px;
-}
-
-.testimonials_client_comment span:first-child {
-    top: 20px;
-}
-
-.testimonials_client_comment span:last-child {
-    right: -97%;
-    bottom: 15px;
-}
 
 .testimonials_client_comment {
     overflow: hidden;
