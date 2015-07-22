@@ -540,24 +540,23 @@ position: absolute;
     padding: 0 3%;
 }
 
-.footer_logo {
-    border-right: 1px solid #2A80BC;
+.footer_logo  {
+    display: block;
     box-sizing: border-box;
-    background: black;
-    display: inline-block;
-    padding-right: 20px;
-    text-align: left;
-    float: left;
-    margin-top: 50px;
+    padding-top: 20px;
+    background: blue;
+    border-bottom: 2px solid #2A80BC;
+    margin: 0 auto;
+    width: 50%;
+    min-width: 176px;
 }
 
 .footer_circle_logo {
-    width: 67px;
-    height: 67px;
-    display: inline-block;
-    background: yellow;
-    margin: 0;
-    padding: 5px;
+    width: 53px;
+    height: 53px;
+    text-align: center;
+    float: none;
+    margin: 0 auto;
 }
 
 .footer_text_logo {
