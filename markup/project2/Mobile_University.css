@@ -140,7 +140,7 @@ textarea {
     background: blue;
     box-sizing: border-box;
     width: 240px;
-    height: 72px;
+    height: 75px;
     margin: 1% auto;
 }
 
@@ -464,7 +464,7 @@ hr {
 
 .footer_top {
     width: 100%;
-/*    height: 191px;*/
+    height: 220px;
     max-width: 799px;
     min-width: 320px;
     background: #f2f2f2;
@@ -519,7 +519,7 @@ hr {
     width: 225px;
     height: 364px;
     background: url(images/boy.png);
-    top: 2924px;
+    top: 2961px;
     position: absolute;
     right: 15%;
     display: inline-block;
@@ -530,8 +530,8 @@ hr {
     max-width: 799px;
     min-width: 320px;
     width: 100%;
-/*    height: 195px;*/
     text-align: center;
+    height: 100%;
 }
 
 .footer_bottom_container {
@@ -550,7 +550,7 @@ hr {
     text-align: center;
     border-right: none;
     border-bottom: 2px solid #2980b9;
-    height: 110px;
+    height: 120px;
     background: pink;
     box-sizing: border-box;
 }
