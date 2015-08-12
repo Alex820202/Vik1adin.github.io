@@ -38,15 +38,6 @@ textarea {
     background-color: #3498db;
     color: white;
 }
-/*
-.cirle_logo {
-    float: left;
-    margin: 10px 10px 10px 0;
-    width: 53px;
-    height: 53px;
-    text-align: center;
-}
-*/
 
 .cirle_logo {
     float: left;
@@ -155,6 +146,13 @@ textarea {
 .banner_form:hover{
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
+/*
+.banner_form:hover{
+    -webkit-transform: scale(1.12);
+  transform: scale(1.01);
+  transition:all 0s ease 0s;
+}
+*/
 
 .banner_form h2 {
     color: #333333;
@@ -164,7 +162,7 @@ textarea {
     line-height: 78px;
 }
 
-- .banner_form form {
+.banner_form form {
     box-sizing: border-box;
     margin: 0 20px;
     text-align: center;
@@ -236,13 +234,7 @@ textarea {
     transition: all 0.1s ease 0.1s;
 }
 }
-/*
-.banner_form:hover{
-    -webkit-transform: scale(1.12);
-  transform: scale(1.01);
-  transition:all 0s ease 0s;
-}
-*/
+
 
 .about_us {
     display: block;
@@ -558,7 +550,7 @@ hr {
 }
 .guy_img {
     position: absolute;
-    top: 1265px;
+    top: 20%;
     right: 18%;
     display: inline-block;
     margin: 0 auto;
